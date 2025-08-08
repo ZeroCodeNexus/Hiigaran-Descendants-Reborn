@@ -1,0 +1,69 @@
+{
+  "displayName": "Siege",
+  "fluxCapacitors": 23,
+  "fluxVents": 50,
+  "goalVariant": true,
+  "hullId": "hii_sajuuk2",
+  "hullMods": [
+    "eccm"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_sajuuk2_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_singularity_cannon",
+        "WS0002": "hii_singularity_cannon",
+        "WS0003": "hii_singularity_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "hii_abas_missile_pod",
+        "WS0013": "hii_abas_missile_pod",
+        "WS0014": "hii_abas_missile_pod",
+        "WS0015": "hii_abas_missile_pod",
+        "WS0016": "hii_abas_missile_pod",
+        "WS0017": "hii_abas_missile_pod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hii_kinetic_burst_cannon",
+        "WS0005": "hii_kinetic_burst_cannon",
+        "WS0006": "hii_kinetic_burst_cannon",
+        "WS0007": "hii_kinetic_burst_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS001": "hii_pulsar_beam_xl",
+        "WS0010": "hii_pulsar_beam_xl"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "hii_flak_cannon",
+        "WS0009": "hii_flak_cannon",
+        "WS0020": "hii_flak_cannon",
+        "WS0021": "hii_flak_cannon",
+        "WS0022": "hii_flak_cannon",
+        "WS0023": "hii_flak_cannon",
+        "WS0026": "hii_flak_cannon",
+        "WS0027": "hii_flak_cannon"
+      }
+    }
+  ],
+  "wings": []
+}

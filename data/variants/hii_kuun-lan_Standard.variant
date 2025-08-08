@@ -1,0 +1,59 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 50,
+  "fluxVents": 31,
+  "goalVariant": true,
+  "hullId": "hii_kuun-lan",
+  "hullMods": [
+    "eccm"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_kuun-lan_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hii_abas_missile_pod",
+        "WS0002": "hii_abas_missile_pod",
+        "WS0003": "hii_abas_missile_pod",
+        "WS0004": "hii_abas_missile_pod",
+        "WS0005": "hurricane",
+        "WS0006": "hurricane"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "hii_kinetic_burst_cannon_large_he",
+        "WS0012": "hii_kinetic_burst_cannon_large_he"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "hii_kinetic_driver",
+        "WS0014": "hii_kinetic_driver",
+        "WS0015": "hii_kinetic_driver",
+        "WS0016": "hii_kinetic_driver",
+        "WS0017": "hii_kinetic_driver",
+        "WS0018": "hii_kinetic_driver",
+        "WS0019": "hii_kinetic_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

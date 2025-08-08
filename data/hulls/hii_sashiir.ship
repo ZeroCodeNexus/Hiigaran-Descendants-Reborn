@@ -1,0 +1,244 @@
+{
+  "bounds": [
+    144.5,
+    -10,
+    68.5,
+    -25.5,
+    61,
+    -35.5,
+    -22.5,
+    -50.5,
+    -23.5,
+    -69,
+    -40.5,
+    -78.5,
+    -122,
+    -74,
+    -135.5,
+    -41.5,
+    -102.5,
+    -25,
+    -126.5,
+    -11.5,
+    -126.5,
+    11.5,
+    -102.5,
+    25,
+    -135.5,
+    41.5,
+    -122,
+    74,
+    -40.5,
+    78.5,
+    -23.5,
+    69,
+    -22.5,
+    50.5,
+    61,
+    35.5,
+    68.5,
+    25.5,
+    144.5,
+    10
+  ],
+  "builtInWings": [],
+  "center": [
+    81,
+    149
+  ],
+  "collisionRadius": 182,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 25,
+      "length": 25,
+      "location": [
+        -133,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 25
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 50,
+      "location": [
+        -135,
+        62
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 50,
+      "location": [
+        -135,
+        -62
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    }
+  ],
+  "height": 298,
+  "hullId": "hii_sashiir",
+  "hullName": "hii_sashiir",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 182,
+  "spriteName": "graphics/HD/ships/hii_tashiir.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 233,
+      "id": "WS0001",
+      "locations": [
+        12,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 210,
+      "id": "WS0002",
+      "locations": [
+        -74,
+        66
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 210,
+      "id": "WS0003",
+      "locations": [
+        -74,
+        -66
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 292,
+      "id": "WS0004",
+      "locations": [
+        86,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 278,
+      "id": "WS0005",
+      "locations": [
+        59,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 109,
+      "id": "WS0006",
+      "locations": [
+        -110,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        4,
+        30.5,
+        24.5,
+        30.5,
+        -10.5,
+        32
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        6,
+        -31.5,
+        23.5,
+        -30,
+        -11.5,
+        -33.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 3",
+      "locations": [
+        -76,
+        0.5,
+        -68,
+        0.5,
+        -85.5,
+        0.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 12,
+      "id": "WS0007",
+      "locations": [
+        -24.5,
+        -61.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -0,
+      "arc": 12,
+      "id": "WS0008",
+      "locations": [
+        -24.5,
+        61.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    }
+  ],
+  "width": 162
+}

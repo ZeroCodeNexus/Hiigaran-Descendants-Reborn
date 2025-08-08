@@ -1,0 +1,17 @@
+{
+  "displayName": "Sensor Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "hii_drone_pd_pulsar",
+  "hullMods": ["pointdefenseai"],
+  "variantId": "hii_drone_pd_pulsar_sensor",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hii_sequenced_pulsar_drone"
+      }
+    }
+  ]
+}

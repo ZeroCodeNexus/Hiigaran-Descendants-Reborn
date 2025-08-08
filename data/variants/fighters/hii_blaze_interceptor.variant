@@ -1,0 +1,22 @@
+{
+  "displayName": "Assault Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "hii_blaze",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "hii_blaze_interceptor",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "chaingun",
+        "WS0002": "chaingun"
+      }
+    }
+  ],
+  "wings": [],
+}

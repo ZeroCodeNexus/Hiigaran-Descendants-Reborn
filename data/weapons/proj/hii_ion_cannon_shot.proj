@@ -1,0 +1,22 @@
+{
+	"id":"hii_ion_cannon_shot",
+	"onHitEffect":"data.scripts.CannonHitEffect",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"NONE",
+	"length":110.0,
+	"width":60.0,
+	"hitGlowRadius":250,
+	"fadeTime":0.25,
+	"fringeColor":[0,0,200,255],
+	"coreColor":[255,255,255,255],
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF,FIGHTER],
+	#"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	#"textureScrollSpeed":64.0,
+	#"pixelsPerTexel":5.0
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

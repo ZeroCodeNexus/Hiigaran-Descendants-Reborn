@@ -1,0 +1,16 @@
+{
+	"id":"hii_rail_cannon_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"NONE",
+	"length":50.0,
+	"hitGlowRadius":100,
+	"width":11.0,
+	"fadeTime":0.10,
+	"fringeColor":[235,255,215,235],
+	"coreColor":[225,255,205,200],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/HD/missiles/hii_rail_cannon_shot.png"
+}

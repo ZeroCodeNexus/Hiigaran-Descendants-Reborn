@@ -1,0 +1,125 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"hii_jet_Standard":12,
+		"hii_kaan_Standard":12,
+		"hii_fiirkan_Standard":18,
+		"hii_vraan_Standard":10,
+	},
+	"combatSmall":{
+		"hii_jet_Standard":18,
+		"hii_kaan_Standard":12,
+		"hii_fiirkan_Standard":8,
+	},
+	"combatMedium":{
+		"hii_vraan_Standard":20,
+		"hii_rathan_Standard":14,
+		"hii_kava_Standard":1,
+	},
+	"combatLarge":{
+		"hii_saarkin_Standard":13,
+		"hii_jneer_Standard":17,
+		"hii_skaal_Standard":7,
+		"hii_vanaar_Standard":6,
+		"hii_vaahrok_Standard":8,
+		"hii_kava_Standard":1,
+		"fallback":{"combatMedium":2},
+	},
+	"combatCapital":{
+		"hii_koshiir_Standard":25,
+		"hii_qwaar_Standard":15,
+		"hii_kuun-lan_Standard":17,
+		"hii_sajuuk_Standard":10,
+		"hii_sajuuk2_Standard":6,
+		"hii_sajuukkhar_Standard":1,
+		"fallback":{"combatLarge":2},
+	},
+	"civilianRandom":{
+		"hii_saari_Standard":5,
+		"mercury_Standard":10,
+		"hermes_Standard":10,
+	},
+
+	# carriers
+	"carrierSmall":{
+		"hii_faal-corum_Standard":2,
+		"hii_sashiir_Standard":5,
+		"fallback":{"carrierMedium":1},
+	},
+	"carrierMedium":{
+		"hii_sashiir_Standard":5,
+		"fallback":{"carrierLarge":2},
+	},
+	"carrierLarge":{
+		"hii_wodaan_Standard":10,
+		"hii_taiid_Standard":10,
+		"fallback":{"carrierMedium":2},
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"mercury_Standard":10,
+		"hermes_Standard":10,
+		"fallback":{"freighterMedium":1},
+	},
+	"freighterMedium":{
+		"hii_vihr_Standard":10,
+		"fallback":{"freighterSmall":2},
+	},
+	"freighterLarge":{
+		"hii_neerin_Standard":8,
+		"fallback":{"freighterMedium":2},
+	},
+	
+	"tankerSmall":{
+		"hii_luun_Standard":10,
+		"fallback":{"tankerMedium":1},
+	},
+	"tankerMedium":{
+		"hii_taarel_Standard":10,
+		"fallback":{"tankerSmall":2},
+	},
+	"tankerLarge":{
+		"prometheus_Super":10,
+		"fallback":{"tankerMedium":2},
+	},
+	
+	"personnelSmall":{
+		"mercury_d_Standard":10,
+		"mercury_Standard":10,
+		"fallback":{"personnelMedium":1},
+	},
+	"personnelMedium":{
+		"hii_saari_Standard":10,
+		"fallback":{"personnelSmall":2},
+	},
+	"personnelLarge":{
+		"fallback":{"personnelMedium":2},
+	},
+	
+	"linerSmall":{
+		"mercury_Standard":2,
+	},
+	"linerMedium":{
+		"nebula_Standard":2,
+	},
+	"linerLarge":{
+		"starliner_Standard":2,
+	},
+	
+	# utility ships
+	"tug":{
+		"hii_luun_Standard":10,
+		"fallback":{"utility":1},
+	},
+	"crig":{
+		"crig_Standard":10,
+		"fallback":{"utility":1},
+	},
+
+	"utility":{
+		"crig_Standard":10,
+		"hii_luun_Standard":10,
+	}
+}

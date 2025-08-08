@@ -1,0 +1,12 @@
+{
+  "id":"hiigaran_descendants",
+  "name":"Hiigaran Descendants",
+  "author":"Gotcha! & BombasticMori",
+  "totalConversion":"false",
+  "utility":"false",
+  "version":"2.0.2",
+  "description":"--------------- * Requires LazyLib * ------------------------------------ Descended from a planet called 'Hiigara', the Hiigarans made it to this part of the universe hundreds of years ago, during the Great Exile. Using their technological knowledge that was brought along from home, they now try to get by, avoiding conflict but readying themselves for the day the Hiigaran people will again be hunted.",
+  "gameVersion":"0.9.1a",
+  "jars":["jars/Hiigaran Descendants.jar"],
+  "modPlugin":"data.scripts.world.HiiModPlugin"
+}

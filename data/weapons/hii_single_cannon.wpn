@@ -1,0 +1,28 @@
+{
+	"id":"hii_single_cannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":450,
+	"turretSprite":"graphics/HD/weapons/hii_single_cannon_base_large.png",
+	"turretGunSprite":"graphics/HD/weapons/hii_single_cannon_recoil_large.png",
+	"hardpointSprite":"graphics/HD/weapons/hii_single_cannon_base_large_hp.png",
+	"hardpointGunSprite":"graphics/HD/weapons/hii_single_cannon_recoil_large_hp.png",	
+	"visualRecoil":15.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[40, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[40, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":75.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":45.0,
+					   "particleSizeMin":18.0,
+					   "particleSizeRange":24.0,
+					   "particleDuration":0.4,
+					   "particleCount":64,
+					   "particleColor":[255,185,115,215]},
+	"projectileSpecId":"hii_rail_cannon_shot",  # projectile that will be fired
+	"fireSoundTwo":"hii_Single_cannon",
+}

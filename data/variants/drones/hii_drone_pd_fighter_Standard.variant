@@ -1,0 +1,17 @@
+{
+  "displayName": "Point Defense Drone",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "hii_drone_pd_fighter",
+  "hullMods": [],
+  "variantId": "hii_drone_pd_fighter_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hii_pulsar_beam_drone_pd"
+      }
+    }
+  ]
+}

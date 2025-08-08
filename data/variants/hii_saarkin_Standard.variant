@@ -1,0 +1,56 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 19,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "hii_saarkin",
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_saarkin_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hii_kinetic_burst_cannon_large",
+        "WS0002": "hii_cor_missile_pod",
+        "WS0003": "hii_cor_missile_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hii_kinetic_burst_cannon",
+        "WS0005": "hii_kinetic_burst_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "hii_kinetic_driver",
+        "WS0007": "hii_kinetic_driver",
+        "WS0008": "hii_kinetic_driver",
+        "WS0009": "hii_kinetic_driver",
+        "WS0010": "hii_kinetic_driver",
+        "WS0011": "hii_kinetic_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

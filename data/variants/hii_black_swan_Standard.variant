@@ -1,0 +1,51 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 50,
+  "fluxVents": 25,
+  "goalVariant": true,
+  "hullId": "hii_black_swan",
+  "hullMods": [
+    "turretgyros",
+    "hardenedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_black_swan_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_converted_hull_laser",
+        "WS0002": "hii_kinetic_driver",
+        "WS0003": "hii_kinetic_driver",
+        "WS0004": "hii_kinetic_driver",
+        "WS0005": "hii_kinetic_driver",
+        "WS0006": "hii_kinetic_driver",
+        "WS0007": "hii_kinetic_driver",
+        "WS0008": "hii_kinetic_driver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

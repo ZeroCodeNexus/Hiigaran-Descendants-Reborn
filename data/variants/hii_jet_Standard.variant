@@ -1,0 +1,33 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 8,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "hii_jet",
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_jet_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hii_chaingun_medium"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_kinetic_driver",
+        "WS0002": "hii_kinetic_driver",
+        "WS0004": "hii_kinetic_driver",
+        "WS0005": "hii_kinetic_driver"
+      }
+    }
+  ],
+  "wings": []
+}

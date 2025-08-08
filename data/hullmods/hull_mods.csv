@@ -1,0 +1,5 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+# standard built-in hullmods,,,,,,,,,,,,,,,,,,
+Extended Manufactory,extended_manufactory,,,,,,,,TRUE,,0,0,0,0,data.hullmods.ExtendedManufactory,"The Wodaan has a vast amount of its internal structure dedicated to launch bays and an exceptionally large manufactory. 
+
+Reduces Fighter Replacement Rate decay by %s, and refit time by %s. Additionally improves the stats of the fighters, increasing their speed by %s and reducing their damage taken by %s.",,graphics/hullmods/expanded_deck_crew.png

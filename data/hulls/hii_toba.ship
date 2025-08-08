@@ -1,0 +1,90 @@
+{
+  "bounds": [
+    20,
+    -3,
+    9.5,
+    -6,
+    -3.5,
+    -6,
+    -3.5,
+    -11.5,
+    -9.5,
+    -11.5,
+    -20.5,
+    -1.5,
+    -20.5,
+    1.5,
+    -9.5,
+    11.5,
+    -3.5,
+    11.5,
+    -3.5,
+    6,
+    9.5,
+    6,
+    20,
+    3
+  ],
+  "builtInWeapons": {
+    "WS0001": "hii_pulsar_beam_focused",
+    "WS0002": "hii_pulsar_beam_focused"
+  },
+  "builtInWings": [],
+  "center": [
+    15,
+    23
+  ],
+  "collisionRadius": 38,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 30,
+      "location": [
+        -22,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 12
+    }
+  ],
+  "height": 45,
+  "hullId": "hii_toba",
+  "hullName": "Toba",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 30,
+  "spriteName": "graphics/HD/ships/hii_toba.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        0.5,
+        11.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        0.5,
+        -11.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 30
+}

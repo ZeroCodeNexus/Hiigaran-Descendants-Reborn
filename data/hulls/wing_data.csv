@@ -1,0 +1,7 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRun,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+hii_tarii_wing,hii_tarii_interceptor,"fighter2, interceptor, hiigaran, hii_ship_bp",1,,5,16,DIAMOND,4000,500,,3,INTERCEPTOR,Heavy Interceptor,12,11500,,,,,,,,,,,,,77777
+hii_toba_wing,hii_toba_fighter,"fighter3, fighter, mid, hii_ship_bp",3,,9,28,V,4000,900,,3,ASSAULT,Heavy Strike Fighter,16,19000,,,,,,,,,,,,,77777
+hii_heeshk_wing,hii_heeshk_bomber,"bomber3, bomber, high, hii_ship_bp",3,,8,24,BOX,2400,2000,,4,SUPPORT,Missile Boat,20,21000,,,,,,,,,,,,,77777
+hii_blaze_wing,hii_blaze_interceptor,"fighter4, fighter, low, hii_ship_bp",2,,6,18,V,4000,500,,3,FIGHTER,Assault Fighter,14,14000,,,,,,,,,,,,,77777
+hii_raachok_wing,hii_raachok_interceptor,"fighter2, interceptor, hiigaran, hii_ship_bp",1,,4,9,CLAW,5000,1500,,5,INTERCEPTOR,Support Interceptor,6,8000,,,,,,,,,,,,,77777
+hii_fiirkan_wing,hii_fiirkan_fighter,"fighter3, fighter, hiigaran, hii_ship_bp2, rare_bp",4,0.5,10,30,CLAW,20000,7000,,1,ASSAULT,Attack Corvette,25,35000,,,,,,,,,,,,,77777

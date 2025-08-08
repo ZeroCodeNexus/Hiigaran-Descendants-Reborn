@@ -1,0 +1,259 @@
+{
+  "bounds": [
+    93,
+    -65,
+    -43,
+    -65,
+    -80,
+    -49.5,
+    -177.5,
+    -49.5,
+    -213,
+    -35.5,
+    -270.5,
+    -35.5,
+    -280.5,
+    -24,
+    -280.5,
+    24,
+    -270.5,
+    35.5,
+    -213,
+    35.5,
+    -160.5,
+    50.5,
+    -151,
+    94,
+    -141.5,
+    49.5,
+    -80,
+    49.5,
+    -43,
+    65,
+    167,
+    64.5,
+    195,
+    46,
+    218.5,
+    47,
+    220.5,
+    6.5,
+    242,
+    -9,
+    170.5,
+    -49,
+    131.5,
+    -50
+  ],
+  "builtInMods": [
+    "extended_manufactory"
+  ],
+  "builtInWeapons": {
+    "WS0007": "sensordish"
+  },
+  "builtInWings": [],
+  "center": [
+    111.5,
+    289.5
+  ],
+  "collisionRadius": 333,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 10,
+      "location": [
+        -283,
+        10.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 30
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 10,
+      "location": [
+        -283,
+        -10.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 30
+    },
+    {
+      "angle": 131.987213,
+      "contrailSize": 20,
+      "length": 10,
+      "location": [
+        -279.5,
+        28.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    },
+    {
+      "angle": -131.987213,
+      "contrailSize": 20,
+      "length": 10,
+      "location": [
+        -279.5,
+        -28.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    }
+  ],
+  "height": 579,
+  "hullId": "hii_wodaan",
+  "hullName": "Wodaan",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 333,
+  "spriteName": "graphics/HD/ships/hii_wodaan.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 265,
+      "id": "WS0003",
+      "locations": [
+        167.5,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0004",
+      "locations": [
+        -66.5,
+        29.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 134,
+      "id": "WS0005",
+      "locations": [
+        -111.5,
+        -27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 180,
+      "arc": 260,
+      "id": "WS0006",
+      "locations": [
+        -152.5,
+        -27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        -111.5,
+        -55.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        -152.5,
+        -55.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        16,
+        -23,
+        16,
+        -38.5,
+        34,
+        -23,
+        34,
+        -39
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        36,
+        -23,
+        54,
+        -23,
+        54,
+        -39,
+        36,
+        -39
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 3",
+      "locations": [
+        180,
+        45,
+        217,
+        45,
+        179.5,
+        13,
+        217,
+        13
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0007",
+      "locations": [
+        56,
+        29
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 223
+}

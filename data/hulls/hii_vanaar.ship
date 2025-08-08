@@ -1,0 +1,244 @@
+{
+  "bounds": [
+    45.5,
+    -4.5,
+    -4.5,
+    -5.5,
+    -5,
+    -17.5,
+    147,
+    -17.5,
+    117,
+    -44,
+    101.5,
+    -44,
+    88.5,
+    -52.5,
+    -41.5,
+    -52.5,
+    -42,
+    -58.5,
+    -97.5,
+    -46,
+    -108,
+    -51,
+    -119.5,
+    -96,
+    -138.5,
+    -56.5,
+    -120.5,
+    -40.5,
+    -145,
+    -33.5,
+    -103.5,
+    -14,
+    -103.5,
+    14,
+    -145,
+    33.5,
+    -120.5,
+    40.5,
+    -138.5,
+    56.5,
+    -119.5,
+    96,
+    -108,
+    51,
+    -97.5,
+    46,
+    -42,
+    58.5,
+    -41.5,
+    52.5,
+    88.5,
+    52.5,
+    101.5,
+    44,
+    117,
+    44,
+    147,
+    17.5,
+    -5,
+    17.5,
+    -4.5,
+    5.5,
+    45.5,
+    4.5
+  ],
+  "center": [
+    99,
+    150
+  ],
+  "collisionRadius": 194,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 25,
+      "length": 50,
+      "location": [
+        -117,
+        17
+      ],
+      "style": "HIGH_TECH",
+      "width": 25
+    },
+    {
+      "angle": -180,
+      "contrailSize": 25,
+      "length": 50,
+      "location": [
+        -117,
+        -17
+      ],
+      "style": "HIGH_TECH",
+      "width": 25
+    }
+  ],
+  "height": 300,
+  "hullId": "hii_vanaar",
+  "hullName": "hii_vanaar",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 194,
+  "spriteName": "graphics/HD/ships/hii_vanaar.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 235,
+      "id": "WS0011",
+      "locations": [
+        -68,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        38,
+        51
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        38,
+        -51
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        8,
+        51
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        8,
+        -51
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        -22,
+        51
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0008",
+      "locations": [
+        -22,
+        -51
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 235,
+      "id": "WS0009",
+      "locations": [
+        75,
+        24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 235,
+      "id": "WS0010",
+      "locations": [
+        75,
+        -24
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        68,
+        51
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        68,
+        -51
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 198
+}

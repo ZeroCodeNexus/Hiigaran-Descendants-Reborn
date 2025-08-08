@@ -1,0 +1,33 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 10,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "hii_kaan",
+  "hullMods": [
+    "eccm"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_kaan_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_tviir_launcher",
+        "WS0002": "hii_tviir_launcher",
+        "WS0003": "hii_abas_missile_pod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hii_flak_cannon",
+        "WS0005": "hii_flak_cannon"
+      }
+    }
+  ],
+  "wings": []
+}

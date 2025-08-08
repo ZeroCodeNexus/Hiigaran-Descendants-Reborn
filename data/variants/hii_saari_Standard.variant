@@ -1,0 +1,33 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 13,
+  "goalVariant": true,
+  "hullId": "hii_saari",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_saari_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_kinetic_burst_cannon",
+        "WS0002": "hii_kinetic_burst_cannon",
+        "WS0003": "hii_kinetic_burst_cannon",
+        "WS0004": "hii_flak_cannon",
+        "WS0005": "hii_flak_cannon",
+        "WS0006": "hii_flak_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

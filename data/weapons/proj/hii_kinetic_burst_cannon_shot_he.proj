@@ -1,0 +1,16 @@
+{
+	"id":"hii_kinetic_burst_cannon_shot_he",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":35.0,
+	"hitGlowRadius":48,
+	"width":6.0,
+	"fadeTime":0.175,
+	"fringeColor":[255,230,50,155],
+	"coreColor":[255,230,170,180],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/HD/missiles/hii_kinetic_burst_cannon_shell_medium_he.png"
+}

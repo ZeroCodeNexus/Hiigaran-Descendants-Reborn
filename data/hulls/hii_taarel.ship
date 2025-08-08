@@ -1,0 +1,147 @@
+{
+  "bounds": [
+    100.5,
+    -5,
+    106.5,
+    -7,
+    91.5,
+    -19.5,
+    95,
+    -36,
+    69,
+    -51,
+    18.5,
+    -51.5,
+    15,
+    -67.5,
+    -91,
+    -67.5,
+    -92.5,
+    -49,
+    -110,
+    -38,
+    -111,
+    -20,
+    -133.5,
+    -19,
+    -146,
+    -9.5,
+    -146,
+    9.5,
+    -133.5,
+    19,
+    -111,
+    20,
+    -110,
+    38,
+    -92.5,
+    49,
+    -91,
+    67.5,
+    15,
+    67.5,
+    18.5,
+    51.5,
+    69,
+    51,
+    95,
+    36,
+    91.5,
+    19.5,
+    106.5,
+    7,
+    100.5,
+    5
+  ],
+  "center": [
+    74.5,
+    149
+  ],
+  "collisionRadius": 186,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 25,
+      "length": 50,
+      "location": [
+        -111.5,
+        27.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 25
+    },
+    {
+      "angle": 180,
+      "contrailSize": 25,
+      "length": 50,
+      "location": [
+        -111.5,
+        -27.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 25
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 15,
+      "location": [
+        -148,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    }
+  ],
+  "height": 298,
+  "hullId": "hii_taarel",
+  "hullName": "hii_taarel",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 186,
+  "spriteName": "graphics/HD/ships/hii_taarel.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 235,
+      "id": "WS0001",
+      "locations": [
+        90,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -17,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -116,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 149
+}

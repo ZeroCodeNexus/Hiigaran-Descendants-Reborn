@@ -1,0 +1,227 @@
+{
+  "bounds": [
+    89.5,
+    -14,
+    42.5,
+    -25.5,
+    -18.5,
+    -27.5,
+    -19,
+    -42.5,
+    10.5,
+    -42.5,
+    10.5,
+    -55,
+    -63.5,
+    -51.5,
+    -45.5,
+    -45,
+    -52,
+    -28,
+    -74,
+    -28,
+    -94,
+    -6,
+    -94,
+    6,
+    -74,
+    28,
+    -52,
+    28,
+    -45.5,
+    45,
+    -63.5,
+    51.5,
+    10.5,
+    55,
+    10.5,
+    42.5,
+    -19,
+    42.5,
+    -18.5,
+    27.5,
+    42.5,
+    25.5,
+    89.5,
+    14
+  ],
+  "builtInWeapons": {
+    "WS0003": "hii_ion_lance",
+    "WS0004": "hii_ion_lance"
+  },
+  "builtInWings": [],
+  "center": [
+    64,
+    97.5
+  ],
+  "collisionRadius": 128,
+  "engineSlots": [
+    {
+      "angle": 139.144623,
+      "contrailSize": 16,
+      "length": 10,
+      "location": [
+        -90.5,
+        12
+      ],
+      "style": "HIGH_TECH",
+      "width": 16
+    },
+    {
+      "angle": -139.144623,
+      "contrailSize": 16,
+      "length": 10,
+      "location": [
+        -90.5,
+        -12
+      ],
+      "style": "HIGH_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 10,
+      "location": [
+        -96.5,
+        -5
+      ],
+      "style": "HIGH_TECH",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 10,
+      "location": [
+        -96.5,
+        5
+      ],
+      "style": "HIGH_TECH",
+      "width": 15
+    }
+  ],
+  "height": 195,
+  "hullId": "hii_kava",
+  "hullName": "Kava",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 128,
+  "spriteName": "graphics/HD/ships/hii_kava.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        34.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        -2.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 180,
+      "arc": 273,
+      "id": "WS0007",
+      "locations": [
+        -63.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -4.5,
+      "arc": 15,
+      "id": "WS0003",
+      "locations": [
+        11.5,
+        49
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 4.5,
+      "arc": 15,
+      "id": "WS0004",
+      "locations": [
+        11.5,
+        -49
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 207,
+      "id": "WS0005",
+      "locations": [
+        -34.5,
+        37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 207,
+      "id": "WS0006",
+      "locations": [
+        -34.5,
+        -37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        72,
+        9.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        72,
+        -9.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 128
+}

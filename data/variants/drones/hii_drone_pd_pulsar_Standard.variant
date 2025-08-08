@@ -1,0 +1,17 @@
+{
+  "displayName": "Drone PD Pulsar",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "hii_drone_pd_pulsar",
+  "hullMods": ["pointdefenseai"],
+  "variantId": "hii_drone_pd_pulsar_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hii_pulsar_beam"
+      }
+    }
+  ]
+}

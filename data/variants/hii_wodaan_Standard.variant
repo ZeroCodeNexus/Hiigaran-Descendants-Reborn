@@ -1,0 +1,38 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 37,
+  "fluxVents": 18,
+  "goalVariant": true,
+  "hullId": "hii_wodaan",
+  "hullMods": [
+    "eccm",
+    "expanded_deck_crew"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_wodaan_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hii_abas_missile_pod",
+        "WS0002": "hii_abas_missile_pod",
+        "WS0003": "hii_flak_cannon",
+        "WS0004": "hii_flak_cannon",
+        "WS0006": "hii_flak_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": [
+    "hii_fiirkan_wing",
+    "hii_fiirkan_wing",
+    "hii_blaze_wing",
+    "hii_blaze_wing"
+  ]
+}

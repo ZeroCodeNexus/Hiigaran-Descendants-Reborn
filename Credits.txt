@@ -1,0 +1,33 @@
+Gotcha! and all original credits for making the mod in the first place!
+Bombasticmori for updating the mod to 0.9.1a
+Cycerin for Blackrock Drive Yards whose source code really helped me understand the coding side of the game
+Starsector wiki for their modding guides, a huge help in finding things in need of update
+
+Original Credits by Gotcha! below:
+Huge thanks:
+Original ship art and turrets (used with permission, this guy's awesome):
+Kalthaniell
+
+Original image used for portraits:
+Guesscui (Link has died.)
+
+Planet art:
+Duael Designs LLC & Robert Stein - New Hiigara
+Planet Creator, Christian Hart - Jakuul, Koya, Daiamid, Maal
+
+Special thanks:
+- Trylobot, Trylobot's STARSECTOR Ship Editor. Seriously, you, sir, are awesome and I salute you. I can't imagine having to create ships without it.
+- Thule, for allowing me to adapt his 'contract' script.
+- LazyWizard <3
+- Wyvern and Lazywizard, for their Saved Variant Extractor.
+- Fractal Softworks, for allowing people to create modifications and, ofcourse, creating this game.
+- Relic, r.i.p. Thank you for blessing the world with two great games. /melodramatic
+- megal00t and Relic, Homeworld 2 cruiser, carrier and corvette render.
+- echosierraalpha, New Hiigara vs The Dominion story.
+
+Thanks:
+- silentstormpt, for directing me to LazyWizard's guide.
+- IceXuick, for his sheet of doodads. Could lazily decorade my huge laser cannon with it. <3 Laziness
+- Ember, testing, with video feedback even.
+- Silver Silence, testing, feedback.
+- echosierraalpha, Lore Keeper

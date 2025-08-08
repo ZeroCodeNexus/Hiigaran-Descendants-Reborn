@@ -1,0 +1,172 @@
+{
+  "bounds": [
+    144.5,
+    -10,
+    68.5,
+    -25.5,
+    61,
+    -35.5,
+    -22.5,
+    -50.5,
+    -23.5,
+    -69,
+    -40.5,
+    -78.5,
+    -122,
+    -74,
+    -135.5,
+    -41.5,
+    -102.5,
+    -25,
+    -126.5,
+    -11.5,
+    -126.5,
+    11.5,
+    -102.5,
+    25,
+    -135.5,
+    41.5,
+    -122,
+    74,
+    -40.5,
+    78.5,
+    -23.5,
+    69,
+    -22.5,
+    50.5,
+    61,
+    35.5,
+    68.5,
+    25.5,
+    144.5,
+    10
+  ],
+  "builtInWings": [],
+  "center": [
+    81,
+    149
+  ],
+  "collisionRadius": 182,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 25,
+      "length": 25,
+      "location": [
+        -133,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 25
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 50,
+      "location": [
+        -135,
+        62
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 50,
+      "location": [
+        -135,
+        -62
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    }
+  ],
+  "height": 298,
+  "hullId": "hii_saari",
+  "hullName": "hii_saari",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 182,
+  "spriteName": "graphics/HD/ships/hii_saari.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 234,
+      "id": "WS0001",
+      "locations": [
+        12,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 204,
+      "id": "WS0002",
+      "locations": [
+        -74,
+        66
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 204,
+      "id": "WS0003",
+      "locations": [
+        -74,
+        -66
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 286,
+      "id": "WS0004",
+      "locations": [
+        86,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 276,
+      "id": "WS0005",
+      "locations": [
+        59,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 180,
+      "arc": 134,
+      "id": "WS0006",
+      "locations": [
+        -110,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 162
+}

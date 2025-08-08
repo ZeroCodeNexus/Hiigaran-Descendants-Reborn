@@ -1,0 +1,81 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 45,
+  "fluxVents": 50,
+  "goalVariant": true,
+  "hullId": "hii_sajuukkhar",
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_sajuukkhar_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hii_skaal_laser_system_xl",
+        "WS0002": "hii_kinetic_burst_cannon_large",
+        "WS0003": "hii_kinetic_burst_cannon_large",
+        "WS0004": "hii_kinetic_burst_cannon_large",
+        "WS0007": "hii_kinetic_burst_cannon_large",
+        "WS0008": "hii_kinetic_burst_cannon_large",
+        "WS0009": "hii_pulsar_beam",
+        "WS0010": "hii_pulsar_beam",
+        "WS0011": "hii_pulsar_beam",
+        "WS0012": "hii_pulsar_beam",
+        "WS0013": "hii_pulsar_beam",
+        "WS0014": "hii_kinetic_driver",
+        "WS0015": "hii_pulsar_beam",
+        "WS0016": "hii_pulsar_beam",
+        "WS0017": "hii_pulsar_beam",
+        "WS0018": "hii_pulsar_beam",
+        "WS0019": "hii_pulsar_beam",
+        "WS0020": "hii_pulsar_beam",
+        "WS0021": "hii_accelerated_pulsar_beam_sm",
+        "WS0022": "hii_accelerated_pulsar_beam_sm",
+        "WS0023": "hii_accelerated_pulsar_beam_sm",
+        "WS0024": "hii_accelerated_pulsar_beam_sm",
+        "WS0025": "hii_accelerated_pulsar_beam_sm",
+        "WS0026": "hii_accelerated_pulsar_beam_sm",
+        "WS0027": "hii_cor_missile_pod",
+        "WS0028": "hii_cor_missile_pod",
+        "WS0029": "hii_cor_missile_pod",
+        "WS0030": "hii_cor_missile_pod",
+        "WS0031": "hii_cor_missile_pod",
+        "WS0032": "hii_cor_missile_pod",
+        "WS0033": "hii_accelerated_pulsar_beam_sm",
+        "WS0034": "hii_accelerated_pulsar_beam_sm",
+        "WS0037": "hii_pulsar_beam",
+        "WS0038": "hii_pulsar_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": [
+    "hii_raachok_wing",
+    "hii_raachok_wing",
+    "hii_raachok_wing"
+  ]
+}

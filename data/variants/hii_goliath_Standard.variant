@@ -1,0 +1,55 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "goalVariant": true,
+  "hullId": "hii_goliath",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_goliath_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hii_kinetic_burst_cannon_large",
+        "WS0005": "hii_kinetic_burst_cannon_large",
+        "WS0006": "hii_kinetic_burst_cannon_large",
+        "WS0007": "hii_kinetic_burst_cannon_large"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_abas_missile_pod_xl"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lightmg",
+        "WS0009": "hii_kinetic_driver",
+        "WS0010": "lightmg",
+        "WS0011": "lightmg",
+        "WS0014": "lightmg",
+        "WS0016": "lightmg",
+        "WS0018": "lightmg",
+        "WS0019": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": [
+    "hii_toba_wing",
+    "hii_toba_wing",
+    "hii_toba_wing",
+    "hii_toba_wing"
+  ]
+}

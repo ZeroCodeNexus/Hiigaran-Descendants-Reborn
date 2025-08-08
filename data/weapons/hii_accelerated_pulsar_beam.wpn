@@ -1,0 +1,29 @@
+{
+	"id":"hii_accelerated_pulsar_beam",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"graphics/HD/weapons/hii_dual_laser_large.png",
+	"turretGlowSprite":"graphics/HD/weapons/hii_dual_laser_large_glow.png",
+	"hardpointSprite":"graphics/HD/weapons/hii_dual_laser_large_hp.png",
+	"hardpointGlowSprite":"graphics/HD/weapons/hii_dual_laser_large_glow_hp.png",	
+	"turretOffsets":[39, -9, 39, 9],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[39, -9, 39, 9],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":35.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.12,
+					   "particleCount":12,
+					   "particleColor":[255,150,100,255]},		
+	"glowColor":[255,150,100,255],
+	"autocharge":true,
+	#"interruptibleBurst":true,
+	"projectileSpecId":"hii_accelerated_pulsar_beam_shot2",  # projectile that will be fired
+	"fireSoundTwo":"hii_accelerated_pulsar",
+}

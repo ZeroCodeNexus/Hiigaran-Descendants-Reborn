@@ -1,0 +1,23 @@
+{
+  "displayName": "Heavy Interceptor",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "hii_tarii",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "hii_tarii_interceptor",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_kinetic_driver_drone",
+        "WS0002": "hii_kinetic_driver_drone",
+        "WS0003": "hii_tviir_frag"
+      }
+    }
+  ],
+  "wings": []
+}

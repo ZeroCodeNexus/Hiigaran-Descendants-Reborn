@@ -1,0 +1,22 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 10,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "hii_luun",
+  "hullMods": [
+  ],
+  "permaMods": [],
+  "variantId": "hii_luun_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_pulsar_beam",
+        "WS0002": "hii_pulsar_beam",
+      }
+    },
+  ]
+}
+

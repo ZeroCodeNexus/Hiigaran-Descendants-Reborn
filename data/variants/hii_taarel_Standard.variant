@@ -1,0 +1,28 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 30,
+  "fluxVents": 15,
+  "goalVariant": true,
+  "hullId": "hii_taarel",
+  "hullMods": [
+  ],
+  "variantId": "hii_taarel_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_sustained_ion_beam",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hii_pulsar_beam",
+        "WS0002": "hii_pulsar_beam",
+      }
+    },
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "displayName": "Drone PD Kinetic",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "hii_drone_pd_kinetic",
+  "hullMods": [],
+  "variantId": "hii_drone_pd_kinetic_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "hii_kinetic_driver_drone"
+      }
+    }
+  ]
+}

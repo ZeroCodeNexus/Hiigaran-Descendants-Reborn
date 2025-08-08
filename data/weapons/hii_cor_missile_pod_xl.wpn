@@ -1,0 +1,78 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 300,
+  "fireSoundTwo": "hii_missile_launch",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    4.5,
+    9,
+    4.5,
+    -9,
+    -7.5,
+    7,
+    -7.5,
+    -7,
+    1.5,
+    0,
+    -8.5,
+    0
+  ],
+  "hardpointSprite": "graphics/HD/weapons/hii_cor_missile_pod_base_large.png",
+  "id": "hii_cor_missile_pod_xl",
+  "projectileSpecId": "hii_cor_missile",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "LARGE",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1,
+    "cloudParticleCount": 3,
+    "cloudRadius": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ],
+    "particleSizeMin": 20,
+    "particleSizeRange": 20
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    4.5,
+    9,
+    4.5,
+    -9,
+    -7.5,
+    7,
+    -7.5,
+    -7,
+    1.5,
+    0,
+    -8.5,
+    0
+  ],
+  "turretSprite": "graphics/HD/weapons/hii_cor_missile_pod_base_large.png",
+  "type": "MISSILE"
+}

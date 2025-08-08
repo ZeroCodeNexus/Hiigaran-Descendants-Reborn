@@ -1,0 +1,85 @@
+{
+  "bounds": [
+    13.5,
+    -3.5,
+    20.5,
+    -4.5,
+    -5,
+    -8.5,
+    -11.5,
+    -11,
+    -20.5,
+    -4,
+    -20.5,
+    4,
+    -11.5,
+    11,
+    -5,
+    8.5,
+    20.5,
+    4.5,
+    13.5,
+    3.5
+  ],
+  "builtInWeapons": {
+    "WS0001": "hii_chaingun_light",
+    "WS0002": "hii_chaingun_light"
+  },
+  "center": [
+    12.5,
+    22
+  ],
+  "collisionRadius": 36,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 30,
+      "location": [
+        -21,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    }
+  ],
+  "height": 44,
+  "hullId": "hii_blaze",
+  "hullName": "hii_blaze",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 36,
+  "spriteName": "graphics/HD/ships/hii_blaze.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        16,
+        -4.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        12.5,
+        -7.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 25
+}

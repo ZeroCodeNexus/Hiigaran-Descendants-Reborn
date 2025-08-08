@@ -1,0 +1,54 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+PD Drone,hii_drone_pd_kinetic,,,,,125,5,1000,,500,,,250,300,300,300,360,5,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,7100
+PD Drone,hii_drone_pd_pulsar,,,,,225,15,1000,,500,,,250,300,300,300,360,5,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,7101
+PD Drone,hii_drone_pd_fighter,,,,,125,5,1000,,500,,,250,300,300,300,360,5,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,7102
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ballistic Turret,hii_turret_ballistic,Defence Turret,,,4,15000,1000,10000,,1000,0,,0,0,0,100,0,500,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,7103
+Energy Turret,hii_turret_energy,Defence Turret,,,4,15000,1000,10000,,1000,0,,0,0,0,100,0,500,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,7104
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tarii,hii_tarii,Heavy Interceptor,Hiigaran,,,475,80,1000,,100,0,,245,275,200,210,390,40,NONE,,0,0,0,,,2,2,,,,,8,,5,5,,,1,1,,,,0,,,7105
+Blaze,hii_blaze,Assault Fighter,Hiigaran,,,650,100,1000,,100,0,,205,180,160,160,200,40,NONE,,0,0,0,,,2,2,,,,,10,,5,5,,,1,1,,,,0,,,7106
+Toba,hii_toba,Heavy Strike Fighter,Hiigaran,,,325,0,900,,125,0,,165,145,115,120,55,60,OMNI,,120,0,0.35,,,2,2,,,,,7,,5,5,,,1,1,,,,0,,,7107
+Heeshk,hii_heeshk,Missile Boat,Hiigaran,,,700,80,250,,50,0,,110,145,115,120,120,50,NONE,,0,0,0,,,3,3,,,,,7,,5,7,,,1,1,,,,0,,,7108
+Raachok,hii_raachok,Support Interceptor,Hiigaran,,,275,5,600,,60,0,,460,800,650,720,1600,10,NONE,,0,0,0,,,0,0,,,,,7,,5,3,,,1,1,,,,0,,,7109
+Fiirkan-Mar,hii_fiirkan_fighter,Corvette,Hiigaran,flarelauncher_active,,1400,60,2400,1200,270,0,,160,150,60,60,80,100,OMNI,,360,0,0.5,,,3,3,,,,,10,,5,10,,,3,3,,,,0,,,7110
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fiirkan,hii_fiirkan,Corvette,Hiigaran,flarelauncher_active,3,1000,200,1300,1200,165,35,,190,320,300,150,360,100,OMNI,,360,0.2,0.5,,,4,4,20,20,0.4,55,10,8000,8,10,240,0.2,3,3,,hii_ship_bp,,0,,,7111
+Jet,hii_jet,Gun Frigate,Hiigaran,ammofeed,5,2950,350,1900,3200,135,65,,145,125,110,80,200,200,FRONT,,260,0.4,0.6,,,5,15,50,35,0.5,55,10,15000,7,10,330,0.2,6,6,,hii_ship_bp,,0,,,7112
+Kaan,hii_kaan,Missile Frigate,Hiigaran,fastmissileracks,5,1800,215,1700,2800,100,55,,135,120,110,80,200,180,OMNI,,150,0.4,0.6,,,5,10,50,30,0.6,50,10,14000,7,10,330,0.2,5,5,,hii_ship_bp,,0,,,7113
+Luun,hii_luun,Freighter/Tug,Hiigaran,flarelauncher_active,4,1000,150,1500,,125,25,,130,100,90,70,200,200,OMNI,,150,0.4,0.65,,,5,10,200,150,0.6,50,10,14000,7,10,330,0.2,3,3,CIVILIAN,hii_ship_bp,,0,,,7114
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rathan,hii_rathan,Destroyer,Hiigaran,maneuveringjets,11,5600,490,3800,4350,230,75,,105,80,70,50,110,300,FRONT,,260,0.4,0.7,,,20,40,80,80,2,55,9,39000,5,12,540,0.2,12,12,,hii_ship_bp,,0,,,7115
+Vraan,hii_vraan,Destroyer,Hiigaran,hii_drone_pd_small,10,6500,600,2800,4450,180,115,,85,75,65,45,100,400,OMNI,,180,0.5,0.7,,,30,60,80,80,2,60,9,37000,5,12,600,0.2,11,11,,hii_ship_bp,,0,,,7116
+Kava,hii_kava,Advanced Destroyer,Hiigaran,plasmajets,25,6500,450,5500,3250,360,105,,105,85,65,40,90,400,FRONT,,300,0.35,0.65,,,25,35,40,40,2,20,9,155000,5,15,480,0.15,20,25,,,0.3,0,,,7117
+Faal-Corum,hii_faal-corum,Drone Carrier,Hiigaran,hii_drone_pd_fighter,13,3100,500,2100,3250,160,65,,90,70,50,35,80,400,OMNI,,150,0.4,0.7,,,20,40,70,80,2,60,9,43000,5,12,600,0.2,13,18,,hii_ship_bp,0.8,0,,,7118
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Taarel,hii_taarel,Tanker,Hiigaran,hii_drone_pd_kinetic,8,4500,250,2750,3500,200,60,,60,40,30,20,25,900,OMNI,,150,0.5,0.75,,,25,60,200,950,4,80,8,25000,5,15,600,0.2,10,12,CIVILIAN,hii_ship_bp,,0,,,7119
+Vihr,hii_vihr,Freighter,Hiigaran,hii_drone_pd_kinetic,8,6000,250,2750,3500,200,60,,60,40,30,20,25,900,OMNI,,150,0.5,0.75,,,25,60,950,200,4,80,8,25000,5,15,600,0.2,10,12,CIVILIAN,hii_ship_bp,,0,,,7120
+Saari,hii_saari,Troop Transport,Hiigaran,flarelauncher_active,10,8400,660,3350,4000,200,70,,60,60,50,25,35,1000,OMNI,,150,0.5,0.75,,,25,950,80,80,4,80,8,30000,5,15,600,0.2,14,12,CIVILIAN,hii_ship_bp,,0,,,7121
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Saarkin,hii_saarkin,Cruiser,Hiigaran,plasmajets,16,10500,1200,5000,9000,375,185,,80,65,45,20,25,1000,FRONT,,260,0.4,0.75,,,120,200,150,120,4,75,8,125000,4,15,720,0.2,24,24,,hii_ship_bp,,0,,,7122
+Jneer,hii_jneer,Cruiser,Hiigaran,hii_drone_sensor,16,11500,1350,6000,10000,400,170,,70,50,35,20,25,1200,OMNI,,150,0.4,0.75,,,120,200,120,120,4,75,8,125000,4,15,720,0.2,25,25,,hii_ship_bp,,0,,,7123
+Vanaar,hii_vanaar,Missile Cruiser,Hiigaran,flarelauncher_active,12,5500,450,3200,4500,275,170,,55,40,30,15,20,900,OMNI,,150,0.5,0.75,,,100,180,150,120,3.5,70,8,100000,4,15,720,0.2,20,20,,hii_ship_bp,,0,,,7124
+Vaahrok,hii_vaahrok,Torpedo Cruiser,Hiigaran,ammofeed,15,8500,950,6000,8000,450,185,,70,50,35,15,20,1000,FRONT,,260,0.4,0.75,,,120,200,200,150,3.5,70,8,120000,4,15,720,0.2,24,24,,hii_ship_bp,,0,,,7125
+Skaal,hii_skaal,Ion Beam Cruiser,Hiigaran,highenergyfocus,16,6500,600,9000,16000,1600,80,,75,50,35,15,12,1000,FRONT,,150,0.15,1,,,100,180,150,150,3.5,65,8,150000,4,15,720,0.2,24,24,,"hii_ship_bp2, rare_bp",0.75,0,,,7126
+Sashiir,hii_sashiir,Light Battlecarrier,Hiigaran,hii_drone_pd_kinetic,14,9500,950,3600,4000,260,155,2,70,65,65,15,20,900,OMNI,,150,0.5,0.75,,,180,260,80,80,4,80,8,115000,4,15,720,0.2,23,23,,hii_ship_bp,,0,,,7139
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Neerin,hii_neerin,Capital Logistics Vessel,Hiigaran,flarelauncher_active,10,15000,1150,4000,6000,180,165,,45,15,10,5,5,4000,OMNI,,210,0.1,0.75,,,150,2240,4100,3600,24,60,8,215000,4,10,1020,0.2,9,20,CIVILIAN,"hii_ship_bp2, rare_bp",,0,,,7127
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Koshiir,hii_koshiir,Battlecruiser,Hiigaran,hii_rook_defense,23,17800,1700,12000,22000,560,290,,45,30,25,7,7,2000,OMNI,,300,0.3,0.7,,,300,600,400,700,12,40,8,290000,4,15,1020,0.2,40,40,,"hii_ship_bp2, rare_bp",0.75,0,,,7128
+Qwaar,hii_qwaar,Battlecruiser,Hiigaran,plasmajets,24,17000,1300,10500,20000,800,310,,65,40,35,9,9,2200,FRONT,,270,0.4,0.75,,,320,680,300,500,10,50,8,330000,4,15,1020,0.2,45,45,,"hii_ship_bp2, rare_bp",0.75,0,,,7129
+Kuun-Lan,hii_kuun-lan,Battlecruiser,Hiigaran,fastmissileracks,26,16500,1400,8500,16500,525,290,,50,25,20,6,6,2500,OMNI,,150,0.5,0.75,,,325,600,500,700,12,40,8,360000,4,15,1020,0.2,45,45,,"hii_ship_bp2, rare_bp",0.75,0,,,7130
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wodaan,hii_wodaan,Carrier,Hiigaran,targetingfeed,26,14000,1000,6000,12000,500,230,5,60,30,20,10,10,2500,OMNI,,150,0.5,0.75,,,300,900,900,1200,12,70,8,250000,4,15,1020,0.2,40,40,CARRIER,"hii_ship_bp2, rare_bp",1.2,0,,,7131
+Taiid,hii_taiid,Battlecarrier,Hiigaran,hii_drone_pd_pulsar,29,18000,1400,11000,16500,550,295,3,40,25,10,6,6,3000,OMNI,,150,0.4,0.75,,,350,800,350,500,10,45,8,320000,4,15,1020,0.2,45,45,"CARRIER, COMBAT","hii_ship_bp2, rare_bp",0.5,0,,,7132
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Makkhar,hii_sajuuk,Battleship,Hiigaran,burndrive,40,23500,1900,24000,31250,760,345,2,45,20,10,7,3.5,6000,OMNI,,270,0.25,1,,,400,800,400,600,20,35,7,450000,4,15,1020,0.2,60,60,,"hii_ship_bp2, rare_bp",0.5,0,,,7133
+Sajuuk,hii_sajuuk2,Battleship,Hiigaran,hii_drone_sensor,42,17000,1050,15000,31250,1550,355,,30,20,15,4.5,4.5,6000,FRONT,,120,0.2,0.9,,,550,1000,650,400,24,35,7,590000,4,15,1080,0.2,60,60,,"hii_ship_bp2, rare_bp",0.35,0,,,7133
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sajuuk-Khar,hii_sajuukkhar,Dreadnought,Hiigaran,hii_rook_defense,120,42000,2200,26000,31250,2500,585,3,30,16,12,2.5,2.5,25000,OMNI,,180,0.18,0.8,,,1400,2000,1000,1800,90,20,7,3000000,3,20,1200,0.1,105,145,,,0.05,0,,,7134
+Hiigaran Mining Station,hii_station_small,Mining Station,Hiigaran,hii_drone_pd_kinetic,20,15000,1500,20000,22000,750,250,4,30,10,8,4,4,4000,OMNI,,360,0.5,1,,,250,500,1500,1500,15,20,7,150000,10,20,1020,,40,40,,,,0,,,7135
+Hiigaran Space Station,hii_station_large,Space Station,Hiigaran,hii_drone_interceptor_wing,25,20000,2000,30000,32000,1500,300,4,15,8,6,3,3,6000,OMNI,,360,0.5,1,,,300,1200,2000,2000,20,15,7,250000,10,20,1020,,40,40,CARRIER,,,0,,,7136
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Black Swan,hii_black_swan,Battlecruiser,Hiigaran,highenergyfocus,22,11000,1000,20000,19000,1300,155,0,55,45,30,9,6,2500,OMNI,,150,0.4,1.2,,,300,600,400,700,14,35,7,280000,4,15,1020,0.2,32,32,,"pirate_bp, rare_bp",,0,,,7137
+Goliath,hii_goliath,BattleCarrier,Hiigaran,burndrive,23,9000,800,10800,16500,950,245,4,40,30,20,8,5,3500,OMNI,,150,0.6,0.9,,,400,800,300,400,12,40,7,300000,4,15,1020,0.2,35,35,"CARRIER, COMBAT","pirate_bp, rare_bp",,0,,,7138

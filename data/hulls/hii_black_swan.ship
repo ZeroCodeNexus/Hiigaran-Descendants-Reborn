@@ -1,0 +1,254 @@
+{
+  "bounds": [
+    239,
+    -9,
+    201.5,
+    -26.5,
+    94.5,
+    -33,
+    56,
+    -71,
+    186.5,
+    -61.5,
+    181,
+    -82.5,
+    133,
+    -105,
+    -153,
+    -119,
+    -182.5,
+    -107,
+    -179,
+    -63,
+    -226.5,
+    -46.5,
+    -189.5,
+    -23,
+    -217.5,
+    -9.5,
+    -217.5,
+    9.5,
+    -189.5,
+    23,
+    -226.5,
+    46.5,
+    -179,
+    63,
+    -182.5,
+    107,
+    -153,
+    119,
+    133,
+    105,
+    181,
+    82.5,
+    186.5,
+    61.5,
+    56,
+    71,
+    94.5,
+    33,
+    201.5,
+    26.5,
+    239,
+    9
+  ],
+  "builtInWeapons": {
+    "WS0001": "hii_converted_hull_laser"
+  },
+  "builtInWings": [],
+  "center": [
+    125,
+    246.5
+  ],
+  "collisionRadius": 299,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 70,
+      "location": [
+        -228,
+        6
+      ],
+      "style": "MIDLINE",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 70,
+      "location": [
+        -228,
+        -6
+      ],
+      "style": "MIDLINE",
+      "width": 20
+    },
+    {
+      "angle": 180,
+      "contrailSize": 40,
+      "length": 80,
+      "location": [
+        -225,
+        48
+      ],
+      "style": "MIDLINE",
+      "width": 40
+    },
+    {
+      "angle": -180,
+      "contrailSize": 40,
+      "length": 80,
+      "location": [
+        -225,
+        -48
+      ],
+      "style": "MIDLINE",
+      "width": 40
+    }
+  ],
+  "height": 493,
+  "hullId": "hii_black_swan",
+  "hullName": "Black Swan",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 299,
+  "spriteName": "graphics/HD/ships/hii_black_swan.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 45,
+      "arc": 235,
+      "id": "WS0002",
+      "locations": [
+        132.5,
+        88
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -45,
+      "arc": 235,
+      "id": "WS0003",
+      "locations": [
+        132.5,
+        -88
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 45,
+      "arc": 235,
+      "id": "WS0004",
+      "locations": [
+        -93.5,
+        109
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -45,
+      "arc": 235,
+      "id": "WS0005",
+      "locations": [
+        -93.5,
+        -109
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 137,
+      "arc": 235,
+      "id": "WS0006",
+      "locations": [
+        -151.5,
+        109
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -137,
+      "arc": 235,
+      "id": "WS0007",
+      "locations": [
+        -151.5,
+        -109
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 235,
+      "id": "WS0008",
+      "locations": [
+        -165.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -120,
+        50,
+        -90,
+        50,
+        -105,
+        50
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 305,
+      "id": "WS0001",
+      "locations": [
+        -35,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        -90,
+        -50,
+        -105,
+        -50,
+        -120,
+        -50
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 250
+}

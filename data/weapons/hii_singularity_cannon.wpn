@@ -1,0 +1,51 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundOne": "hii_singular_start",
+  "fireSoundTwo": "hii_singular",
+  "glowColor": [
+    145,
+    255,
+    233,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/HD/weapons/hii_singular_laser_large_glow2.png",
+  "hardpointOffsets": [
+    39,
+    -9
+  ],
+  "hardpointSprite": "graphics/HD/weapons/hii_singular_laser_large2.png",
+  "id": "hii_singularity_cannon",
+  "muzzleFlashSpec": {
+    "length": -34,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "particleCount": 30,
+    "particleDuration": 0.15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "spread": 15
+  },
+  "projectileSpecId": "hii_ion_cannon_shot",
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/HD/weapons/hii_singular_laser_large_glow2.png",
+  "turretOffsets": [
+    38.5,
+    -13
+  ],
+  "turretSprite": "graphics/HD/weapons/hii_singular_laser_large2.png",
+  "type": "ENERGY"
+}

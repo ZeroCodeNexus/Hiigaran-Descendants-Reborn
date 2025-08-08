@@ -1,0 +1,29 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 17,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "hii_skaal",
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_skaal_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hii_skaal_laser_system"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,28 @@
+{
+  "displayName": "Missile Boat",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "hii_heeshk",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "hii_heeshk_bomber",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "hii_cor_missile_pod_drone"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hii_pulsar_beam_drone"
+      }
+    }
+  ],
+  "wings": [],
+}

@@ -1,0 +1,308 @@
+{
+  "bounds": [
+    227,
+    -45,
+    201.5,
+    -65.5,
+    243,
+    -90.5,
+    218.5,
+    -105,
+    224,
+    -122.5,
+    197.5,
+    -140,
+    172,
+    -142.5,
+    185,
+    -162.5,
+    165.5,
+    -181,
+    61.5,
+    -179,
+    49,
+    -165.5,
+    51,
+    -142.5,
+    30.5,
+    -144,
+    35,
+    -162.5,
+    9.5,
+    -180,
+    -81,
+    -180,
+    -103,
+    -161.5,
+    -84,
+    -131,
+    -173,
+    -129.5,
+    -193,
+    -94.5,
+    -217,
+    -89.5,
+    -238.5,
+    -74.5,
+    -229.5,
+    -64,
+    -229.5,
+    64,
+    -238.5,
+    74.5,
+    -217,
+    89.5,
+    -193,
+    94.5,
+    -173,
+    129.5,
+    -84,
+    131,
+    -103,
+    161.5,
+    -81,
+    180,
+    9.5,
+    180,
+    35,
+    162.5,
+    30.5,
+    144,
+    51,
+    142.5,
+    49,
+    165.5,
+    61.5,
+    179,
+    165.5,
+    181,
+    185,
+    162.5,
+    172,
+    142.5,
+    197.5,
+    140,
+    224,
+    122.5,
+    218.5,
+    105,
+    243,
+    90.5,
+    201.5,
+    65.5,
+    227,
+    45
+  ],
+  "builtInWeapons": {
+    "WS0010": "sensordish"
+  },
+  "builtInWings": [],
+  "center": [
+    191,
+    246.5
+  ],
+  "collisionRadius": 311,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 40,
+      "length": 80,
+      "location": [
+        -237.5,
+        50
+      ],
+      "style": "HIGH_TECH",
+      "width": 40
+    },
+    {
+      "angle": 180,
+      "contrailSize": 40,
+      "length": 80,
+      "location": [
+        -237.5,
+        -50
+      ],
+      "style": "HIGH_TECH",
+      "width": 40
+    },
+    {
+      "angle": -180,
+      "contrailSize": 40,
+      "length": 80,
+      "location": [
+        -236.5,
+        30.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 40
+    },
+    {
+      "angle": 180,
+      "contrailSize": 40,
+      "length": 80,
+      "location": [
+        -236.5,
+        -31
+      ],
+      "style": "HIGH_TECH",
+      "width": 40
+    },
+    {
+      "angle": 162.669113,
+      "contrailSize": 20,
+      "length": 40,
+      "location": [
+        -192.5,
+        104
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    },
+    {
+      "angle": -162.669113,
+      "contrailSize": 20,
+      "length": 40,
+      "location": [
+        -192.5,
+        -104
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    }
+  ],
+  "height": 493,
+  "hullId": "hii_neerin",
+  "hullName": "hii_neerin",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 311,
+  "spriteName": "graphics/HD/ships/hii_neerin.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        105.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 59.5,
+      "arc": 162,
+      "id": "WS0002",
+      "locations": [
+        182.5,
+        135
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -59.5,
+      "arc": 162,
+      "id": "WS0003",
+      "locations": [
+        182.5,
+        -135
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 235,
+      "id": "WS0004",
+      "locations": [
+        105.5,
+        51
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 235,
+      "id": "WS0005",
+      "locations": [
+        105.5,
+        -51
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 235,
+      "id": "WS0006",
+      "locations": [
+        -10.5,
+        51
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 235,
+      "id": "WS0007",
+      "locations": [
+        -10.5,
+        -51
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 141.5,
+      "arc": 235,
+      "id": "WS0008",
+      "locations": [
+        -164.5,
+        50
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -141.5,
+      "arc": 235,
+      "id": "WS0009",
+      "locations": [
+        -164.5,
+        -50
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 120,
+      "id": "WS0010",
+      "locations": [
+        -134,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 382
+}

@@ -1,0 +1,181 @@
+{
+  "bounds": [
+    95,
+    -4.5,
+    47.5,
+    -9.5,
+    48.5,
+    -19.5,
+    82.5,
+    -21,
+    82.5,
+    -27.5,
+    50.5,
+    -29,
+    4.5,
+    -56.5,
+    -33.5,
+    -53.5,
+    -67,
+    -64,
+    -84.5,
+    -30.5,
+    -53,
+    -10,
+    -53,
+    10,
+    -84.5,
+    30.5,
+    -67,
+    64,
+    -33.5,
+    53.5,
+    4.5,
+    56.5,
+    50.5,
+    29,
+    82.5,
+    27.5,
+    82.5,
+    21,
+    48.5,
+    19.5,
+    47.5,
+    9.5,
+    95,
+    4.5
+  ],
+  "builtInWeapons": {
+    "WS0001": "hii_accelerated_pulsar_beam_xs",
+    "WS0002": "hii_accelerated_pulsar_beam_xs"
+  },
+  "builtInWings": [],
+  "center": [
+    70,
+    98.5
+  ],
+  "collisionRadius": 132,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 40,
+      "location": [
+        -65.5,
+        17.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 40,
+      "location": [
+        -65.5,
+        -17.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    }
+  ],
+  "height": 197,
+  "hullId": "hii_rathan",
+  "hullName": "hii_rathan",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 132,
+  "spriteName": "graphics/HD/ships/hii_rathan.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        74,
+        24.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0002",
+      "locations": [
+        74,
+        -24.5
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -13.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 75.5,
+      "arc": 192,
+      "id": "WS0004",
+      "locations": [
+        1.5,
+        50
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -75.5,
+      "arc": 192,
+      "id": "WS0005",
+      "locations": [
+        1.5,
+        -50
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 107.5,
+      "arc": 235,
+      "id": "WS0006",
+      "locations": [
+        -66.5,
+        34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -107.5,
+      "arc": 235,
+      "id": "WS0007",
+      "locations": [
+        -66.5,
+        -34
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 140
+}

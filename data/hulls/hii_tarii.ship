@@ -1,0 +1,95 @@
+{
+  "bounds": [
+    12.5,
+    -3,
+    20,
+    -4.5,
+    -13.5,
+    -11,
+    -20.5,
+    -4,
+    -20.5,
+    4,
+    -13.5,
+    11,
+    20,
+    4.5,
+    12.5,
+    3
+  ],
+  "builtInWeapons": {
+    "WS0001": "hii_kinetic_driver_drone",
+    "WS0002": "hii_kinetic_driver_drone",
+    "WS0003": "hii_tviir_frag"
+  },
+  "builtInWings": [],
+  "center": [
+    12.5,
+    22
+  ],
+  "collisionRadius": 36,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 30,
+      "location": [
+        -21,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 12
+    }
+  ],
+  "height": 44,
+  "hullId": "hii_tarii",
+  "hullName": "hii_tarii",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 36,
+  "spriteName": "graphics/HD/ships/hii_tarii.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        15.5,
+        3.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        15.5,
+        -3.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 21,
+      "id": "WS0003",
+      "locations": [
+        -5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 25
+}

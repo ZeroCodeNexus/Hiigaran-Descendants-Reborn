@@ -1,0 +1,66 @@
+{
+  "bounds": [],
+  "builtInWeapons": {
+    "WS0001": "hii_pulsar_beam_drone_pd",
+    "WS0002": "hii_pulsar_beam_drone_pd",
+    "WS0003": "hii_accelerated_pulsar_beam_sm"
+  },
+  "builtInWings": [],
+  "center": [
+    14.5,
+    25
+  ],
+  "collisionRadius": 0,
+  "engineSlots": [],
+  "height": 50,
+  "hullId": "new_hull",
+  "hullName": "New Hull",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 0,
+  "spriteName": "graphics/HD/ships/hii_bomber.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 48,
+      "arc": 122,
+      "id": "WS0001",
+      "locations": [
+        -2.5,
+        12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -48,
+      "arc": 122,
+      "id": "WS0002",
+      "locations": [
+        -2.5,
+        -12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0003",
+      "locations": [
+        -4.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 29
+}

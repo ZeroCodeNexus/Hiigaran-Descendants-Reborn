@@ -1,0 +1,57 @@
+{
+  "bounds": [
+    5,
+    2,
+    -5,
+    3,
+    -5,
+    -3,
+    5,
+    -2
+  ],
+  "center": [
+    9,
+    7
+  ],
+  "collisionRadius": 12,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 8,
+      "location": [
+        -6,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    }
+  ],
+  "height": 14,
+  "hullId": "hii_drone_pd_pulsar",
+  "hullName": "Hiigaran PD Drone",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 12,
+  "spriteName": "graphics/HD/ships/drones/hii_drone_pd.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS 001",
+      "locations": [
+        0,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    }
+  ],
+  "width": 18
+}

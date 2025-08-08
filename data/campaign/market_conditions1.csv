@@ -1,0 +1,3 @@
+name,id,script,desc,icon,order
+Space Elevator,brdy_space_elevator,data.scripts.campaign.econ.BRSpaceElevator,"A vast pillar, stretching from surface to outer space, connects Lodestone to Port Augustmoon. The space-borne end of the structure acts as a massive drydock. Increased demand for fuel and crew.",graphics/icons/markets/orbital_station.png,30
+Barren World,brdy_barren,data.scripts.campaign.econ.BRWorldBarren,"This partially-terraformed world is barren and inhospitable. However, cutting-edge agricultural techniques have been successful at wringing out a small amount of farming production from the hellish landscape.",graphics/icons/markets/desert_world_wide.png,10

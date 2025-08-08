@@ -1,0 +1,22 @@
+{
+	"graphics":{
+		"blueprint_packages":{
+			"hiigaran_ship_package":"graphics/HD/icons/hii_bp_basic.png",
+			"hiigaran_ship_package2":"graphics/HD/icons/hii_bp_advanced.png",
+			"hiigaran_weapon_package":"graphics/HD/icons/hii_bp_basic.png",
+			"hiigaran_weapon_package2":"graphics/HD/icons/hii_bp_advanced.png",
+		},
+		"misc":{
+			"hii_rings":"graphics/HD/planets/hii_rings.png"
+		},
+		"fx":{
+			"hii_trail_glow":"graphics/trails/fx/hii_trail_glow.png",
+			"hii_trail_orbs":"graphics/trails/fx/hii_trail_orbs.png",
+			"hii_trail_smokey":"graphics/trails/fx/hii_trail_smokey.png",
+			"hii_trail_trails":"graphics/trails/fx/hii_trail_trails.png",
+			"hii_fx_blast_center":"graphics/fx/blast_center.png",
+			"hii_fx_blast_ring":"graphics/fx/blast_ring.png",
+			"hii_fx_blast_ring_glow":"graphics/fx/blast_ring_glow.png",
+		},
+	}
+}

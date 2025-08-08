@@ -1,0 +1,32 @@
+{
+	"id":"hii_cho_torpedo",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/HD/missiles/hii_cho_torpedo.png",
+	"size":[10,21],	
+	"center":[5,10.5],
+	"collisionRadius":15,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,155,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":250, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":125,
+					 "coreRadius":75, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":150,
+					 "particleColor":[255,185,155,255]},
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":45,
+				  "acc":300,
+				  "dec":150},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-10, 0],
+				    "style":"MISSILE_MIDLINE",
+				    "width":10.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}

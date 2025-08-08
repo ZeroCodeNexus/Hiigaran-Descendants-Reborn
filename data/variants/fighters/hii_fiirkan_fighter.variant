@@ -1,0 +1,26 @@
+{
+  "displayName": "Attack Corvette",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "hii_fiirkan_fighter",
+  "hullMods": [
+    "armoredweapons",
+	"autorepair"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_fiirkan_fighter",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_pulsar_fiirkan",
+        "WS0002": "hii_tviir_frag_pod",
+        "WS0003": "hii_tviir_frag_pod"
+      }
+    }
+  ],
+  "wings": []
+}

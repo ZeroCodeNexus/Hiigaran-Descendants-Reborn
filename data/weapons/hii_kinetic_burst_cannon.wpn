@@ -1,0 +1,29 @@
+{
+	"id":"hii_kinetic_burst_cannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":450,
+	"turretSprite":"graphics/HD/weapons/hii_dual_cannon_base_medium.png",
+	"turretGunSprite":"graphics/HD/weapons/hii_dual_cannon_recoil_medium.png",
+	"hardpointSprite":"graphics/HD/weapons/hii_dual_cannon_base_medium_hp.png",
+	"hardpointGunSprite":"graphics/HD/weapons/hii_dual_cannon_recoil_medium_hp.png",	
+	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[25, -5, 25, 5],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[25, -5, 25, 5],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":34.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":20.0,
+					   "particleSizeMin":18.0,
+					   "particleSizeRange":24.0,
+					   "particleDuration":0.12,
+					   "particleCount":32,
+					   "particleColor":[255,185,115,215]},
+	"projectileSpecId":"hii_kinetic_burst_cannon_shot",  # projectile that will be fired
+	#"fireSoundTwo":"hii_cannon",
+	"fireSoundTwo":"hii_gun_heavy",
+}

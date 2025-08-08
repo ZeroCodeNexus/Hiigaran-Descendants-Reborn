@@ -1,0 +1,23 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 9,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "hii_fiirkan",
+  "hullMods": [
+    "turretgyros"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_fiirkan_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_accelerated_pulsar_beam_sm"
+      }
+    }
+  ],
+  "wings": []
+}

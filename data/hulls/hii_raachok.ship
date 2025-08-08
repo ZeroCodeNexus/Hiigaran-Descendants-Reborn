@@ -1,0 +1,65 @@
+{
+  "bounds": [
+    8.5,
+    -2,
+    -4,
+    -7.5,
+    -9,
+    -2,
+    -9,
+    2,
+    -4,
+    7.5,
+    8.5,
+    2
+  ],
+  "builtInWeapons": {
+    "WS0001": "hii_raachok_ion"
+  },
+  "builtInWings": [],
+  "center": [
+    15,
+    10.5
+  ],
+  "collisionRadius": 22,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 12,
+      "location": [
+        -9.5,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 6
+    }
+  ],
+  "height": 21,
+  "hullId": "hii_raachok",
+  "hullName": "Raachok",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 22,
+  "spriteName": "graphics/HD/ships/hii_raachok.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 75,
+      "id": "WS0001",
+      "locations": [
+        10,
+        -1.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 30
+}

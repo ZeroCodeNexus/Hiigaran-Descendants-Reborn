@@ -1,0 +1,69 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+	
+	"directoryUseShortName":false,
+    
+    "rebelFleetSuffix":"Hiigaran Exiles",
+	
+	"morality":"neutral",
+
+    "startRelationships":{
+		"hegemony": 0.8,
+		"pirates": -0.6,
+		"sindrian_diktat": 0.3,
+		"independent": 0.4,
+		"luddic_church": -0.6,
+		"interstellarimperium": -0.6,
+		"neutrinocorp": 0.8,
+		"SCY": -0.6	
+	},
+    "maxRelationships":{
+		"hegemony":1.0,
+	},
+    "diplomacyPositiveChance":{
+		"hegemony":1.0,
+	},
+    "diplomacyNegativeChance":{
+		"hegemony":0.75,
+	},
+    
+    "alignments":{
+        "corporate":-0.5,
+        "technocratic":0.4,
+        "diplomatic":0.6,
+        "militarist":-0.4,
+        "ideological":1,
+    },
+    
+    "startSpecialItems":[
+        [["hiigaran_ship_package", ""]],
+		[["hiigaran_weapon_package", ""]],
+    ],
+    "startShipsSolo":[["hii_fiirkan_Standard"]],
+	"startShipsCombatSmall":[["hii_rathan_Standard", "hii_kaan_Standard", "hii_fiirkan_Standard"],
+		["hii_vraan_Standard", "hii_jet_Standard", "hii_fiirkan_Standard"]],
+	"startShipsTradeSmall":[["gemini_Standard", "cerberus_Standard", "mercury_Standard"]],
+	"startShipsCombatLarge":[["hii_saarkin_Standard", "hii_vraan_Standard", "hii_jet_Standard"],
+		["hii_jneer_Standard","hii_rathan_Standard", "hii_kaan_Standard"]],
+	"startShipsTradeLarge":[["hii_vihr_Standard", "gemini_Standard", "cerberus_standard"]],
+	"startShipsCarrierSmall":[["hii_wodaan_Standard", "hii_faal-corum_Standard", "hii_jet_Standard"]],
+	"startShipsCarrierLarge":[["hii_taiid_Standard", "hii_jneer_Standard", "hii_rathan_Standard"]],
+	"startShipsSuper":[["hii_qwaar_Standard"]],
+    "defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]}
+    ],
+
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1}
+    ],
+
+    "colonyExpeditionChance":0.75,
+    "maxColonyDistance":20.0,
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+}

@@ -1,0 +1,56 @@
+{
+  "bounds": [
+    13,
+    -5,
+    20,
+    -21,
+    -13.5,
+    -21,
+    -19,
+    -13,
+    -19,
+    13,
+    -13.5,
+    21,
+    20,
+    21,
+    13,
+    5
+  ],
+  "builtInWeapons": {
+    "WS0001": "hii_accelerated_pulsar_beam_sm"
+  },
+  "center": [
+    23,
+    23.5
+  ],
+  "collisionRadius": 46.518814,
+  "engineSlots": [],
+  "height": 61,
+  "hullId": "hii_turret_energy",
+  "hullName": "Energy Turret",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 46.8615,
+  "spriteName": "graphics/HD/ships/hii_turret.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -3.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 46
+}

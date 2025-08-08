@@ -1,0 +1,73 @@
+{
+	# Beams and Energy
+	"hii_pulsar_beam":[
+		{"file":"sounds/hii_pulsar_beam.ogg","pitch":1,"volume":0.50},
+	],
+	"hii_ion_beam":[
+		{"file":"sounds/hii_ion_beam.ogg","pitch":1,"volume":0.50},
+	],
+	"hii_sustained_ion_beam":[
+		{"file":"sounds/hii_sustained_ion_beam.ogg","pitch":1,"volume":0.50},
+	],
+	"hii_singular_start":[
+		{"file":"sounds/hii_singular_start.ogg","pitch":1.0,"volume":0.25},
+	],
+	"hii_singular":[
+		{"file":"sounds/hii_singular.ogg","pitch":1.0,"volume":0.15},
+	],
+	"hii_ion_beam_charge":[
+		{"file":"sounds/hii_ion_beam_charge.ogg","pitch":1,"volume":1},
+	],
+	"hii_accelerated_pulsar":[
+		{"file":"sounds/hii_accelerated_pulsar.ogg","pitch":1,"volume":0.25},
+	],
+
+	# Ballistic weapons (autocannons, assault guns, flak, etc)
+	"hii_driver":[
+		{"file":"sounds/hii_driver.ogg","pitch":1,"volume":0.15},
+	],	
+	"hii_cannon":[
+		{"file":"sounds/hii_cannon.ogg","pitch":1,"volume":0.15},
+	],		
+	"hii_flak_cannon":[
+		{"file":"sounds/hii_flak_cannon.ogg","pitch":1,"volume":0.50},
+	],		
+	"hii_single_cannon":[
+		{"file":"sounds/hii_single_cannon.ogg","pitch":1,"volume":0.50},
+	],		
+
+	# Missiles - sound played when missile is fired and turns on its engines
+	"hii_small_missile_launch":[
+		{"file":"sounds/hii_missile_launch.ogg","pitch":0.5,"volume":0.20},
+	],
+	"hii_missile_launch":[
+		{"file":"sounds/hii_missile_launch.ogg","pitch":1,"volume":0.20},
+	],
+	"hii_big_missile_launch":[
+		{"file":"sounds/hii_big_missile_launch.ogg","pitch":1,"volume":0.20},
+	],
+	"hii_torpedo_launch":[
+		{"file":"sounds/hii_torpedo_launch.ogg","pitch":1,"volume":0.20},
+	],
+
+	# Vanilla sounds
+	"hii_gun_heavy":[
+		{"file":"sounds/hii_fire_gun_heavy.ogg","pitch":1,"volume":0.75},
+	],
+	"hii_beam_burst":[
+		{"file":"sounds/hii_fire_beam_burst.ogg","pitch":0.75,"volume":0.3},
+	],
+	"hii_beam_loop":[
+		{"file":"sounds/hii_fire_beam_loop.ogg","pitch":1,"volume":0.5},
+	],
+	"hii_gun_mechanicals_light_up":[
+		{"file":"sounds/hii_gun_mechanicals01a.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/hii_gun_mechanicals01b.ogg","pitch":1,"volume":0.5},
+	],
+	"hii_gun_mechanicals_whirr":[
+		{"file":"sounds/hii_gun_mechanicals01.ogg","pitch":0.5,"volume":0.5},
+	],
+	"hii_gun_mechanicals_spin":[
+		{"file":"sounds/hii_gun_mechanicals02.ogg","pitch":0.75,"volume":0.2},
+	],
+}

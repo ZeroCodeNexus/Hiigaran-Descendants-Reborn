@@ -1,0 +1,13 @@
+{
+	"id":"player",
+	"displayName":"Your",
+
+	"portraits":{
+		"standard_male":[
+			"graphics/HD/portraits/portrait_hii_player_male_1.png",
+		],
+		"standard_female":[
+			"graphics/HD/portraits/portrait_hii_player_female_1.png",
+		],
+	},
+}

@@ -1,0 +1,49 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 50,
+  "fluxVents": 25,
+  "goalVariant": true,
+  "hullId": "hii_station_small",
+  "hullMods": [
+  ],
+  "variantId": "hii_station_small_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_singularity_cannon",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hii_sustained_ion_beam",
+        "WS0003": "hii_sustained_ion_beam",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hii_pulsar_beam",
+        "WS0005": "hii_pulsar_beam",
+        "WS0006": "hii_pulsar_beam",
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+      }
+    },
+  ]
+}
+

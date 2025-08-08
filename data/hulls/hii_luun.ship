@@ -1,0 +1,138 @@
+{
+  "bounds": [
+    56,
+    -6.5,
+    61,
+    -7.5,
+    45.5,
+    -19.5,
+    34,
+    -19.5,
+    13.5,
+    -33.5,
+    -29.5,
+    -33.5,
+    -32,
+    -17,
+    -51,
+    -17,
+    -63.5,
+    -7.5,
+    -63.5,
+    7.5,
+    -51,
+    17,
+    -32,
+    17,
+    -29.5,
+    33.5,
+    13.5,
+    33.5,
+    34,
+    19.5,
+    45.5,
+    19.5,
+    61,
+    7.5,
+    56,
+    6.5
+  ],
+  "builtInMods": [
+    "tow_cable"
+  ],
+  "builtInWeapons": {
+    "WS0003": "hii_ventilator"
+  },
+  "builtInWings": [],
+  "center": [
+    51.5,
+    67
+  ],
+  "collisionRadius": 91,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 30,
+      "location": [
+        -31,
+        28.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 30,
+      "location": [
+        -31,
+        -28.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 5,
+      "location": [
+        -65,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 16
+    }
+  ],
+  "height": 131,
+  "hullId": "hii_luun",
+  "hullName": "hii_luun",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 91,
+  "spriteName": "graphics/HD/ships/hii_luun.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -0,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -21.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 90,
+      "arc": 220,
+      "id": "WS0001",
+      "locations": [
+        24,
+        12.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 220,
+      "id": "WS0002",
+      "locations": [
+        24,
+        -12.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 103
+}

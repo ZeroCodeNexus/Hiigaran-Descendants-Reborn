@@ -1,0 +1,135 @@
+{
+  "bounds": [
+    108.5,
+    -9,
+    93.5,
+    -18.5,
+    99,
+    -36,
+    74.5,
+    -49,
+    -75.5,
+    -49,
+    -90,
+    -54,
+    -104.5,
+    -29,
+    -101.5,
+    -19.5,
+    -124,
+    -19,
+    -135.5,
+    -9.5,
+    -135.5,
+    9.5,
+    -124,
+    19,
+    -101.5,
+    19.5,
+    -104.5,
+    29,
+    -90,
+    54,
+    -75.5,
+    49,
+    74.5,
+    49,
+    99,
+    36,
+    93.5,
+    18.5,
+    108.5,
+    9
+  ],
+  "center": [
+    104.5,
+    150
+  ],
+  "collisionRadius": 195,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 25,
+      "length": 50,
+      "location": [
+        -111,
+        28.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 25
+    },
+    {
+      "angle": -180,
+      "contrailSize": 25,
+      "length": 50,
+      "location": [
+        -111,
+        -28.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 25
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 15,
+      "location": [
+        -138,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 20
+    }
+  ],
+  "height": 300,
+  "hullId": "hii_vihr",
+  "hullName": "hii_vihr",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 195,
+  "spriteName": "graphics/HD/ships/hii_vihr.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 235,
+      "id": "WS0001",
+      "locations": [
+        94,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -12,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS0003",
+      "locations": [
+        -108,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 209
+}

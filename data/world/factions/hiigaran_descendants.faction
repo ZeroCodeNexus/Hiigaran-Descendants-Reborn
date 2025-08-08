@@ -1,0 +1,258 @@
+{
+	id:"hiigaran_descendants",
+	"color":[0,82,163,255],
+	"displayName":"Hiigara",
+	"displayNameWithArticle":"The Hiigarans",
+	"displayNameLong":"Hiigaran Descendants",
+	"displayNameLongWithArticle":"the Hiigaran Descendants",
+	"logo":"graphics/HD/icons/hii_mission_icon.png",
+	"shipNamePrefix":"NHSS",
+	"showInIntelTab":true,
+	"shipNameSources":{
+		"HIIGARAN":1,
+	},
+	"description":"Descendants from a planet called 'Hiigara'. The Hiigarans made it to this part of the universe long ago, during the Great Exile.",
+	"names":{
+		"hiigaran names":1,
+	},
+	"illegalCommodities":[
+		"organs",
+		"hand_weapons",	
+		"drugs",
+	],
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Commander"},
+			"factionLeader":{"name":"Kiith-Sa"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Kiith-Sa"},
+			"patrolCommander":{"name":"Patrol Commander"},
+			"fleetCommander":{"name":"Fleet Commander"},
+			"baseCommander":{"name":"Base Commander"},
+		},
+	},
+	"music":{
+		"theme":"music_tritach_encounter_neutral",
+		"market_neutral":"music_tritach_market_neutral",
+		"market_hostile":"music_tritach_market_hostile",
+		"market_friendly":"music_tritach_market_friendly",
+		"encounter_neutral":"music_tritach_encounter_neutral",
+		"encounter_hostile":"music_tritach_encounter_hostile",
+		"encounter_friendly":"music_tritach_encounter_friendly",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/HD/portraits/portrait_hiigaran_male_1.png",
+			"graphics/HD/portraits/portrait_hiigaran_male_2.png",
+			"graphics/HD/portraits/portrait_hiigaran_male_3.png",
+		],
+		"standard_female":[
+			"graphics/HD/portraits/portrait_hiigaran_female_1.png",
+			"graphics/HD/portraits/portrait_hiigaran_female_2.png",
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":2,
+		"shipQuality":4,
+		"numShips":2,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"fighter_doctrine",
+			"officer_management",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+		],
+	},
+	"variantOverrides":{
+	},
+	"hullFrequency":{
+		"tags":{
+			"hii_ship_bp":1,
+			"hii_ship_bp2":1,
+		},
+		"hulls":{
+			"buffalo2":0, # just say no
+			"hii_sajuuk":0.5,
+			"hii_sajuukkhar":0.1,
+		},
+	},
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "hightech_bp", "hii_ship_bp2"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["base_bp", "midline_bp", "hii_ship_bp", "hii_ship_bp2"],
+		"hulls":[
+			"atlas",
+			"prometheus",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["hii_ship_bp", "hii_ship_bp2"],
+		"hulls":[
+			"hii_koshiir",
+			"hii_qwaan",
+			"hii_kuun-lan",
+			"hii_woodan",
+			"hii_taiid",
+			"hii_sajuuk",
+			"hii_sajuuk2",
+			"hii_sajuukkhar",
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "midline_bp", "hii_ship_bp", "hii_ship_bp2"],
+		"fighters":[
+			"hii_tarii_wing",
+			"hii_toba_wing",
+			"hii_heeshk_wing",
+			"hii_blaze_wing",
+			"hii_raachok_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":["hii_ship_bp", "hii_ship_bp2"],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["hii_wep_bp", "hii_wep_bp2"],
+		"weapons":[
+			"hii_pulsar_beam",
+			"hii_pulsar_beam_xl",
+			"hii_sustained_ion_beam",
+			"hii_sustained_ion_beam_xl",
+			"hii_accelerated_pulsar_beam_sm",
+			"hii_accelerated_pulsar_beam",
+			"hii_singularity_cannon",
+			"hii_pulsar_beam_drone",
+			"hii_pulsar_beam_xl",
+			"hii_accelerated_pulsar_beam_xs",
+			"hii_skaal_laser_system",
+			"hii_skaal_laser_system_xl",
+			"hii_converted_hull_laser",
+			"hii_flak_cannon",
+			"hii_kinetic_driver",
+			"hii_kinetic_burst_cannon",
+			"hii_kinetic_burst_cannon_he",
+			"hii_kinetic_burst_cannon_large",
+			"hii_kinetic_burst_cannon_large_he",
+			"hii_single_cannon",
+			"hii_chaingun_medium",
+			"hii_chaingun_medium_he",
+			"hii_chaingun_large",
+			"hii_chaingun_large_he",
+			"hii_kinetic_driver_drone",
+			"hii_tviir_launcher",
+			"hii_cor_missile_pod",
+			"hii_cor_missile_pod_xl",
+			"hii_abas_missile_pod",
+			"hii_abas_missile_pod_xl",
+			"hii_torpedo_launcher",
+			"hii_cor_missile_pod_drone",
+			"hii_opat_missile_pod"
+		],
+	},
+	"priorityWeapons":{
+		"tags":["hii_wep_bp", "hii_wep_bp2"],
+		"weapons":[
+			"hii_pulsar_beam",
+			"hii_pulsar_beam_xl",
+			"hii_sustained_ion_beam",
+			"hii_sustained_ion_beam_xl",
+			"hii_accelerated_pulsar_beam_sm",
+			"hii_accelerated_pulsar_beam",
+			"hii_singularity_cannon",
+			"hii_pulsar_beam_drone",
+			"hii_pulsar_beam_xl",
+			"hii_accelerated_pulsar_beam_xs",
+			"hii_skaal_laser_system",
+			"hii_skaal_laser_system_xl",
+			"hii_converted_hull_laser",
+			"hii_flak_cannon",
+			"hii_kinetic_driver",
+			"hii_kinetic_burst_cannon",
+			"hii_kinetic_burst_cannon_he",
+			"hii_kinetic_burst_cannon_large",
+			"hii_kinetic_burst_cannon_large_he",
+			"hii_single_cannon",
+			"hii_chaingun_medium",
+			"hii_chaingun_medium_he",
+			"hii_chaingun_large",
+			"hii_chaingun_large_he",
+			"hii_kinetic_driver_drone",
+			"hii_tviir_launcher",
+			"hii_cor_missile_pod",
+			"hii_cor_missile_pod_xl",
+			"hii_abas_missile_pod",
+			"hii_abas_missile_pod_xl",
+			"hii_torpedo_launcher",
+			"hii_cor_missile_pod_drone",
+			"hii_opat_missile_pod"
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp"],
+		"hullMods":[
+			"advancedshieldemitter",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"frontshield",  # makeshift
+			"surveying_equipment",
+			"efficiency_overhaul",
+		],
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},	
+	"dialogue":{
+		"greetingFriendly":"Good day, captain. What can we do for you?",
+		"greetingNeutral":"Our profile database does not recognize you. Please keep your distance and... have a nice day.",
+		"greetingHostileAggressive":"Enemy of New Hiigara, you are hereby ordered to shut down your ship's defensive systems. Stand down while you are being boarded.",
+		"greetingHostileTimid":"We cannot communicate right now, captain. Our fleet has an appointment elsewhere and we are already late. Over and out.",
+	}
+},

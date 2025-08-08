@@ -1,0 +1,20 @@
+{
+	"id":"hii_accelerated_pulsar_beam_shot3",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"NONE",
+	"length":110.0,
+	"width":60.0,
+	"hitGlowRadius":150,
+	"fadeTime":0.25,
+	"fringeColor":[200,150,0,255],
+	"coreColor":[255,150,100,255],
+	#"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	#"textureScrollSpeed":64.0,
+	#"pixelsPerTexel":5.0
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

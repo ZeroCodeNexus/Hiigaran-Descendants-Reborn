@@ -1,0 +1,26 @@
+{
+	"id":"hii_heavy_pulsar_turret",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/HD/weapons/hii_dual_laser_medium.png",
+	"turretGlowSprite":"graphics/HD/weapons/hii_dual_laser_medium_glow.png",
+	"hardpointSprite":"graphics/HD/weapons/hii_dual_laser_medium_hp.png",
+	"hardpointGlowSprite":"graphics/HD/weapons/hii_dual_laser_medium_glow_hp.png",	
+	"turretOffsets":[24, -5, 24, 5],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[24, -5, 24, 5],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"fringeColor":[200,100,0,255],
+	"coreColor":[255,200,150,255],
+	"glowColor":[255,150,100,255],
+	"width":16.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+	#"interruptibleBurst":true,
+	"fireSoundOne":"hii_pulsar_beam",
+	"fireSoundTwo":"hii_beam_loop",
+}

@@ -1,0 +1,10 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,icon
+Point Defense Drones (Pulsar),hii_drone_pd_pulsar,,,,,,,18,0.1,0,,4,0,TRUE,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Point Defense Drones (Light Kinetic),hii_drone_pd_kinetic,,,,,,,18,0.1,0,,4,0,TRUE,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Point Defense Drone Wing,hii_drone_pd_small,,,,,,,8,0.1,0,,4,0,TRUE,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Point Defense Drone Bay (Light Pulsar),hii_drone_pd_fighter,120,,,,,,30,0.2,0,,4,0,TRUE,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Sensor Support Drones,hii_drone_sensor,,,,,,,4,0.08,0,,4,0,TRUE,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Sensor Support Drone Wing,hii_drone_sensor_wing,,,,,,,8,0.12,0,,4,0,TRUE,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Carrier Bomber Wing,hii_drone_bomber_wing,,,,,,,12,0.1,0,,4,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Station Interceptor Wing,hii_drone_interceptor_wing,,,,,,,12,0.1,0,,4,0,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Oasis Respite System,hii_rook_defense,,,,,,,1,1,0,15,0,60,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png

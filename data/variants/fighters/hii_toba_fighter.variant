@@ -1,0 +1,22 @@
+{
+  "displayName": "Heavy Strike Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "hii_toba",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 1,
+  "variantId": "hii_toba_fighter",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_pulsar_beam_drone",
+        "WS0002": "hii_pulsar_beam_drone"
+      }
+    }
+  ],
+  "wings": [],
+}

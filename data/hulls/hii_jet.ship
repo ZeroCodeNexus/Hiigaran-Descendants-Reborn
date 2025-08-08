@@ -1,0 +1,148 @@
+{
+  "bounds": [
+    63,
+    -6.5,
+    46.5,
+    -18.5,
+    -11,
+    -26.5,
+    -23.5,
+    -45,
+    -34,
+    -17,
+    -51,
+    -17,
+    -63.5,
+    -7.5,
+    -63.5,
+    7.5,
+    -51,
+    17,
+    -34,
+    17,
+    -23.5,
+    45,
+    -11,
+    26.5,
+    46.5,
+    18.5,
+    63,
+    6.5
+  ],
+  "builtInWings": [],
+  "center": [
+    46.5,
+    67
+  ],
+  "collisionRadius": 91,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 30,
+      "location": [
+        -31,
+        28.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 30,
+      "location": [
+        -31,
+        -28.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 5,
+      "location": [
+        -65,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 16
+    }
+  ],
+  "height": 134,
+  "hullId": "hii_jet",
+  "hullName": "hii_jet",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 91,
+  "spriteName": "graphics/HD/ships/hii_jet.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        -12,
+        36
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        -12,
+        -36
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -0,
+      "arc": 235,
+      "id": "WS0003",
+      "locations": [
+        -21.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 74.5,
+      "arc": 220,
+      "id": "WS0004",
+      "locations": [
+        24,
+        12.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -74.5,
+      "arc": 220,
+      "id": "WS0005",
+      "locations": [
+        24,
+        -12.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 93
+}

@@ -1,0 +1,30 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 5,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "hii_kava",
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "hii_kava_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hii_opat_missile_pod",
+        "WS0002": "hii_opat_missile_pod",
+        "WS0003": "hii_ion_lance",
+        "WS0004": "hii_ion_lance",
+        "WS0005": "lightdualac",
+        "WS0006": "hii_kinetic_driver",
+        "WS0008": "hii_kinetic_driver",
+        "WS0009": "hii_kinetic_driver"
+      }
+    }
+  ],
+  "wings": []
+}

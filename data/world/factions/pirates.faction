@@ -1,0 +1,20 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "hii_black_swan":1,
+			"hii_goliath":1,
+        },
+    },
+	"shipsWhenImporting":{
+		"hulls":[
+			"hii_black_swan",
+			"hii_goliath",
+		],
+	},
+	"knownShips":{
+		"hulls":[
+			"hii_black_swan",
+			"hii_goliath",
+		],
+	},
+},

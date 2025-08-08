@@ -1,0 +1,109 @@
+{
+  "bounds": [
+    33.5,
+    -7.5,
+    0,
+    -14.5,
+    -11.5,
+    -10,
+    -23.5,
+    -14,
+    -34,
+    -11,
+    -34,
+    11,
+    -23.5,
+    14,
+    -11.5,
+    10,
+    0,
+    14.5,
+    33.5,
+    7.5
+  ],
+  "builtInWeapons": {
+    "WS0002": "hii_tviir_frag_pod",
+    "WS0003": "hii_tviir_frag_pod"
+  },
+  "builtInWings": [],
+  "center": [
+    16,
+    38
+  ],
+  "collisionRadius": 55,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35,
+        9
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35,
+        -9
+      ],
+      "style": "HIGH_TECH",
+      "width": 10
+    }
+  ],
+  "height": 76,
+  "hullId": "hii_fiirkan_fighter",
+  "hullName": "Fiirkan-Mar",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 55,
+  "spriteName": "graphics/HD/ships/hii_fiirkan.png",
+  "style": "HIIGARAN_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -2,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 61,
+      "id": "WS0002",
+      "locations": [
+        -14,
+        -12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 61,
+      "id": "WS0003",
+      "locations": [
+        -14,
+        12.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 32
+}
