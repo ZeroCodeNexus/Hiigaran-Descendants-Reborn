@@ -2,6 +2,7 @@ package data.scripts.plugins;
 
 import java.awt.Color;
 
+import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import org.lwjgl.util.vector.Vector2f;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
@@ -17,7 +18,7 @@ import org.lazywizard.lazylib.MathUtils;
 public class HiiHeatCannonEffect implements OnHitEffectPlugin {
 
 	public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target,
-					  Vector2f point, boolean shieldHit, CombatEngineAPI engine) {
+                      Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
 		if (target instanceof ShipAPI) {
 			float emp = projectile.getEmpAmount() * 0.1f;
 			float dam = projectile.getDamageAmount() * 0.2f;

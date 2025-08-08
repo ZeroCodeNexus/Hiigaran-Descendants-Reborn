@@ -4,12 +4,12 @@ import java.awt.Color;
 import java.util.List;
 import java.util.Random;
 
+import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.combat.CombatUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.CollisionClass;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.DamageType;
@@ -17,17 +17,15 @@ import com.fs.starfarer.api.combat.DamagingProjectileAPI;
 import com.fs.starfarer.api.combat.OnHitEffectPlugin;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
-import com.fs.starfarer.api.fleet.FleetMemberAPI;
-import com.fs.starfarer.api.loading.DamagingExplosionSpec;
+import org.magiclib.util.MagicLensFlare;
+import org.magiclib.util.MagicRender;
 
-import data.scripts.util.MagicLensFlare;
-import data.scripts.util.MagicRender;
 
 public class CannonHitEffect implements OnHitEffectPlugin {
 
 	
 	public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target,
-					  Vector2f point, boolean shieldHit, CombatEngineAPI engine) {
+					  Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
 		
 		Random random = new Random();
 
@@ -37,7 +35,7 @@ public class CannonHitEffect implements OnHitEffectPlugin {
 		float thickness = 48f;
 		float length = 300f;
 		
-		MagicLensFlare.createSmoothFlare(engine, projectile.getSource(), point, thickness, length, 0f, new Color(0,0,200,255),  new Color(210,255,255,255));
+		MagicLensFlare.createSharpFlare(engine, projectile.getSource(), point, thickness, length, 0f, new Color(0,0,200,255),  new Color(210,255,255,255));
 		
 		MagicRender.battlespace(Global.getSettings().getSprite("fx", "hii_fx_blast_center"), point, new Vector2f(0,0), new Vector2f(500f,500f), new Vector2f(-150f,-150f), random.nextFloat() * 360f, random.nextFloat() * 50f, new Color(210,255,255,255), true, 0.15f, 0.35f, 1f);
 		MagicRender.battlespace(Global.getSettings().getSprite("fx", "hii_fx_blast_center"), point, new Vector2f(0,0), new Vector2f(400f,400f), new Vector2f(150f,150f), random.nextFloat() * 360f, random.nextFloat() * 50f, new Color(0,0,200,255), true, 0.1f, 0.8f, 2f);
@@ -87,4 +85,5 @@ public class CannonHitEffect implements OnHitEffectPlugin {
 			}	
 		}
 	}
+
 }

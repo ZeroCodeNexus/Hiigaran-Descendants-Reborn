@@ -30,13 +30,9 @@ public class HiigaraGen implements SectorGeneratorPlugin  {
         FactionAPI path = sector.getFaction(Factions.LUDDIC_PATH);
         FactionAPI diktat = sector.getFaction(Factions.DIKTAT);
         FactionAPI hiigara = sector.getFaction("hiigaran_descendants");
-        FactionAPI blackrock = sector.getFaction("blackrock_driveyards");
         FactionAPI SCY = sector.getFaction("SCY");
-        FactionAPI neutrino = sector.getFaction("neutrinocorp");
         FactionAPI imperium = sector.getFaction("interstellarimperium");
-        FactionAPI exigency = sector.getFaction("exigency");
-        FactionAPI exipirated = sector.getFaction("exipirated");
-        FactionAPI templars = sector.getFaction("templars");
+        FactionAPI UAF = sector.getFaction("UAF");
         
         hiigara.setRelationship(path.getId(), RepLevel.FAVORABLE);
         hiigara.setRelationship(hegemony.getId(), RepLevel.COOPERATIVE);
@@ -47,26 +43,15 @@ public class HiigaraGen implements SectorGeneratorPlugin  {
         hiigara.setRelationship(church.getId(), RepLevel.HOSTILE);
         hiigara.setRelationship(kol.getId(), RepLevel.HOSTILE);
         
-        if(blackrock != null){
-            hiigara.setRelationship(blackrock.getId(), RepLevel.NEUTRAL);
-        }
+       
         if(SCY != null){
             hiigara.setRelationship(SCY.getId(), RepLevel.HOSTILE);
-        }
-        if(neutrino != null){
-            hiigara.setRelationship(neutrino.getId(), RepLevel.COOPERATIVE);
         }
         if(imperium != null){
             hiigara.setRelationship(imperium.getId(), RepLevel.HOSTILE);
         }
-        if(exigency != null){
-            hiigara.setRelationship(exigency.getId(), RepLevel.NEUTRAL);
-        }
-        if(exipirated !=  null){
-            hiigara.setRelationship(exipirated.getId(), RepLevel.HOSTILE);
-        }
-        if(templars != null){
-            hiigara.setRelationship(templars.getId(), RepLevel.HOSTILE);
+        if(UAF != null){
+            hiigara.setRelationship(UAF.getId(), RepLevel.WELCOMING);
         }
     }
 }

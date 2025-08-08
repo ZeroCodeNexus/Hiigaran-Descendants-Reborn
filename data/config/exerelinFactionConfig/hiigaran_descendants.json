@@ -4,7 +4,7 @@
 	
 	"directoryUseShortName":false,
     
-    "rebelFleetSuffix":"Hiigaran Exiles",
+    "rebelFleetSuffix":"Hiigaran Uprising",
 	
 	"morality":"neutral",
 
@@ -15,7 +15,6 @@
 		"independent": 0.4,
 		"luddic_church": -0.6,
 		"interstellarimperium": -0.6,
-		"neutrinocorp": 0.8,
 		"SCY": -0.6	
 	},
     "maxRelationships":{

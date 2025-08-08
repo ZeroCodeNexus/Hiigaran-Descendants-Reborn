@@ -1,6 +1,7 @@
-Purple Nebula for guiding me with delving into the insanity of Starsector Modding
-
-Starsector Forum for saving the original sourcecode for Hiigaran Descendants: https://fractalsoftworks.com/forum/index.php?topic=6347.0
+Gotcha! and all original credits for making the mod in the first place!
+Bombasticmori for updating the mod to 0.9.1a
+Cycerin for Blackrock Drive Yards whose source code really helped me understand the coding side of the game
+Starsector wiki for their modding guides, a huge help in finding things in need of update
 
 Original Credits by Gotcha! below:
 Huge thanks:
@@ -19,7 +20,7 @@ Special thanks:
 - Thule, for allowing me to adapt his 'contract' script.
 - LazyWizard <3
 - Wyvern and Lazywizard, for their Saved Variant Extractor.
-- Fractal Softworks, for allowing people to create modifications and, of course, creating this game.
+- Fractal Softworks, for allowing people to create modifications and, ofcourse, creating this game.
 - Relic, r.i.p. Thank you for blessing the world with two great games. /melodramatic
 - megal00t and Relic, Homeworld 2 cruiser, carrier and corvette render.
 - echosierraalpha, New Hiigara vs The Dominion story.
