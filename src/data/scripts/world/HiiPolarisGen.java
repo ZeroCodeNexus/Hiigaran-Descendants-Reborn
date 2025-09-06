@@ -10,9 +10,7 @@ import com.fs.starfarer.api.campaign.PlanetAPI;
 import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
-//import com.fs.starfarer.api.campaign.CargoAPI.CrewXPLevel;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
-//import com.fs.starfarer.api.impl.campaign.fleets.EconomyFleetManager;
 import com.fs.starfarer.api.impl.campaign.ids.Items;
 import com.fs.starfarer.api.impl.campaign.ids.Conditions;
 import com.fs.starfarer.api.impl.campaign.ids.Industries;
@@ -31,10 +29,10 @@ public class HiiPolarisGen
         StarSystemAPI system = sector.createStarSystem("Polaris");
         LocationAPI hyper = Global.getSector().getHyperspace();
         system.setBackgroundTextureFilename("graphics/HD/backgrounds/hii_nebula.jpg");
-        system.getLocation().set(-10838, -9275);
+        system.getLocation().set(-29000, -35500);
         
         sector.setRespawnLocation(system);
-        sector.getRespawnCoordinates().set(-2500, -3500);
+        sector.getRespawnCoordinates().set(-2500.0F, -3500.0F);
         
         PlanetAPI star = system.initStar("polaris", "star_blue_giant", 600f, 600f);
         star.setCustomDescriptionId("hii_star");

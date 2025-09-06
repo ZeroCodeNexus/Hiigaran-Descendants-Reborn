@@ -9,22 +9,26 @@
 	"morality":"neutral",
 
     "startRelationships":{
-		"hegemony": 0.8,
+		"hegemony": 0.4,
 		"pirates": -0.6,
 		"sindrian_diktat": 0.3,
 		"independent": 0.4,
 		"luddic_church": -0.6,
 		"interstellarimperium": -0.6,
-		"SCY": -0.6	
+		"SCY": -0.6,
+        "UAF":  0.8,
 	},
-    "maxRelationships":{
-		"hegemony":1.0,
+    "maxRelationships": {
+		"hegemony":0.6,
+        "UAF": 1,
 	},
-    "diplomacyPositiveChance":{
-		"hegemony":1.0,
+    "diplomacyPositiveChance": {
+		"hegemony":0.70,
+        "UAF":0.9,
 	},
-    "diplomacyNegativeChance":{
+    "diplomacyNegativeChance": {
 		"hegemony":0.75,
+        "UAF":0.25
 	},
     
     "alignments":{
@@ -48,7 +52,7 @@
 	"startShipsTradeLarge":[["hii_vihr_Standard", "gemini_Standard", "cerberus_standard"]],
 	"startShipsCarrierSmall":[["hii_wodaan_Standard", "hii_faal-corum_Standard", "hii_jet_Standard"]],
 	"startShipsCarrierLarge":[["hii_taiid_Standard", "hii_jneer_Standard", "hii_rathan_Standard"]],
-	"startShipsSuper":[["hii_qwaar_Standard"]],
+	"startShipsSuper": [["hii_qwaar_Standard"],["hii_sajuukkhar_Standard"]],
     "defenceStations":[
         {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]}
     ],

@@ -1,17 +1,17 @@
 {
 	id:"hiigaran_descendants",
 	"color":[0,82,163,255],
-	"displayName":"Hiigara",
-	"displayNameWithArticle":"The Hiigarans",
-	"displayNameLong":"Hiigaran Descendants",
-	"displayNameLongWithArticle":"the Hiigaran Descendants",
+	"displayName":"Hiigaran Republic",
+	"displayNameWithArticle":"The Hiigaran Republic",
+	"displayNameLong":"Hiigaran Republic",
+	"displayNameLongWithArticle":"The Hiigaran Republic",
 	"logo":"graphics/HD/icons/hii_mission_icon.png",
-	"shipNamePrefix":"NHSS",
+	"shipNamePrefix":"HRSS",
 	"showInIntelTab":true,
 	"shipNameSources":{
 		"HIIGARAN":1,
 	},
-	"description":"Descendants from a planet called 'Hiigara'. The Hiigarans made it to this part of the universe long ago, during the Great Exile.",
+	"description":"Descendants from a planet called 'Hiigara'. Coming from a vastly different universe, they seek to carve out a new home avoiding the mistakes that brought them here.",
 	"names":{
 		"hiigaran names":1,
 	},
@@ -250,9 +250,9 @@
 		},
 	},	
 	"dialogue":{
-		"greetingFriendly":"Good day, captain. What can we do for you?",
-		"greetingNeutral":"Our profile database does not recognize you. Please keep your distance and... have a nice day.",
-		"greetingHostileAggressive":"Enemy of New Hiigara, you are hereby ordered to shut down your ship's defensive systems. Stand down while you are being boarded.",
-		"greetingHostileTimid":"We cannot communicate right now, captain. Our fleet has an appointment elsewhere and we are already late. Over and out.",
+		"greetingFriendly":"Good day, captain. What can the Hiigaran Navy assist you with?",
+		"greetingNeutral":"Our profile database does not recognize you. Please follow standard contact protocols as outlined by the Treaty of Kazeron.",
+		"greetingHostileAggressive":"Enemy of New Hiigara, you are hereby ordered to shut down your fleet's defensive systems and engines. Stand down while you are being boarded.",
+		"greetingHostileTimid":"Do not mistake our reluctance to fire on you for submission, we have learnt from our own history. I pray that you learn of it aswell someday captain, for both of our sake.",
 	}
 },

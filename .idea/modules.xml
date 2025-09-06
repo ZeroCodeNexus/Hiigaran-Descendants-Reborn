@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hiigaran Descendants.iml" filepath="$PROJECT_DIR$/Hiigaran Descendants.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jars/jars.iml" filepath="$PROJECT_DIR$/jars/jars.iml" />
     </modules>
   </component>
 </project>

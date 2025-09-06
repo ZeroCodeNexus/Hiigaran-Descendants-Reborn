@@ -5,8 +5,6 @@ import com.fs.starfarer.api.Global;
 import exerelin.campaign.SectorManager;
 import org.dark.shaders.light.LightData;
 import org.dark.shaders.util.ShaderLib;
-//import data.scripts.world.HiiHalcyonGen;
-//import data.scripts.world.HiiSolitudeGen;
 
 
 public class HiiModPlugin extends BaseModPlugin
