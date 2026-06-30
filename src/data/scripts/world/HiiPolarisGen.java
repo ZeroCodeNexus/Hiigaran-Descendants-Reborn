@@ -16,6 +16,9 @@ import com.fs.starfarer.api.impl.campaign.ids.Conditions;
 import com.fs.starfarer.api.impl.campaign.ids.Industries;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
+import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
+import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
+import com.fs.starfarer.api.util.Misc;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -201,6 +204,19 @@ public class HiiPolarisGen
                                                             Industries.MINING)),
                                       new ArrayList<String>(Arrays.asList(Submarkets.SUBMARKET_STORAGE, Submarkets.SUBMARKET_BLACK, Submarkets.SUBMARKET_OPEN)),
                                       0.3f
+        );
+        HyperspaceTerrainPlugin plugin = (HyperspaceTerrainPlugin) Misc.getHyperspaceTerrain().getPlugin();
+
+        NebulaEditor editor = new NebulaEditor(plugin);
+
+        // clear a generous area
+        editor.clearArc(
+                system.getLocation().x,
+                system.getLocation().y,
+                0,
+                800f, // Radius
+                0,
+                360
         );
     }
 

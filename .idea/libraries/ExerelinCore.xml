@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="ExerelinCore">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../Program Files (x86)/Fractal Softworks/Starsector/mods/Nexerelin-0.12.0c/jars/ExerelinCore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../VOK ALPHA FILES FOR REPO/Nexerelin-0.12.1b/jars/ExerelinCore.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../Program Files (x86)/Fractal Softworks/Starsector/mods/Nexerelin-0.12.0c/jars/ExerelinCore.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Program Files (x86)/Fractal Softworks/Starsector/mods/Nexerelin-0.12.0c/jars/ExerelinCore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../VOK ALPHA FILES FOR REPO/Nexerelin-0.12.1b/jars/ExerelinCore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../VOK ALPHA FILES FOR REPO/Nexerelin-0.12.1b/jars/ExerelinCore.jar!/" />
     </SOURCES>
   </library>
 </component>
