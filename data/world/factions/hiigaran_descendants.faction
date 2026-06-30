@@ -255,4 +255,22 @@
 		"greetingHostileAggressive":"Enemy of New Hiigara, you are hereby ordered to shut down your fleet's defensive systems and engines. Stand down while you are being boarded.",
 		"greetingHostileTimid":"Do not mistake our reluctance to fire on you for submission, we have learnt from our own history. I pray that you learn of it aswell someday captain, for both of our sake.",
 	}
+	"relationship":{
+	    "faction":{
+            "player":{
+                "default": 0,
+                "flavor":{
+                    "cooperative":"hiigaranrelations_playerfaction_coop"
+                    "friendly":"hiigaranrelations_playerfaction_friend"
+                    "favorable":"hiigaranrelations_playerfaction_favorable"
+                    "welcoming":"hiigaranrelations_playerfaction_welcome"
+                    "neutral":"hiigaranrelations_playerfaction_neutral"
+                    "suspicious":"hiigaranrelations_playerfaction_sus"
+                    "inhospitable":"hiigaranrelations_playerfaction_inhosp"
+                    "hostile":"hiigaranrelations_playerfaction_hostile"
+                    "vengeful":"hiigaranrelations_playerfaction_vengeful"
+                }
+            }
+	}
+	}
 },

@@ -214,7 +214,7 @@ public class HiiPolarisGen
                 system.getLocation().x,
                 system.getLocation().y,
                 0,
-                800f, // Radius
+                1200f, // Radius
                 0,
                 360
         );
